@@ -8,7 +8,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class Mod_7dtd implements ModInitializer {
-    public static final String MOD_ID = "m7dtd";
+    public static final String MOD_ID = "mod_7dtd";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
     @Override
     public void onInitialize() {

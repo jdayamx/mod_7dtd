@@ -3,8 +3,8 @@
   "id": "mod_7dtd",
   "version": "${version}",
   "name": "mod_7dtd",
-  "description": "",
-  "authors": [],
+  "description": "7 days to die",
+  "authors": ["jday"],
   "contact": {
     "repo": "https://github.com/jdayamx/mod_7dtd"
   },
