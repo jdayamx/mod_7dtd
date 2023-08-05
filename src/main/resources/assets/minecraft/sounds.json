@@ -1,0 +1,18 @@
+{
+  "music.menu": {
+    "replace": true,
+    "sounds": [
+      {
+        "subtitle": "minecraft.sounds.music.menu.menu1",
+        "name": "music/menu/menu1",
+        "stream": true
+      }
+    ]
+  },
+  "menu1": {
+    "subtitle": "minecraft.sounds.music.menu.menu1",
+    "sounds": [
+      "minecraft:menu1"
+    ]
+  }
+}

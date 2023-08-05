@@ -2,22 +2,30 @@
   "schemaVersion": 1,
   "id": "mod_7dtd",
   "version": "${version}",
-
   "name": "mod_7dtd",
   "description": "",
   "authors": [],
-  "contact": {},
-
+  "contact": {
+    "repo": "https://github.com/jdayamx/mod_7dtd"
+  },
   "license": "MIT",
   "icon": "assets/mod_7dtd/icon.png",
-
   "environment": "*",
-  "entrypoints": {},
-
-    
+  "entrypoints": {
+    "client": [
+      "jday.mod_7dtd.client.Mod_7dtdClient"
+    ],
+    "main": [
+      "jday.mod_7dtd.Mod_7dtd"
+    ],
+    "fabric-datagen": [
+      "jday.mod_7dtd.ModDataGenerator"
+    ]
+  },
   "depends": {
     "fabricloader": ">=${loader_version}",
-              "fabric": "*",
-          "minecraft": "${minecraft_version}"
+    "fabric": "*",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
   }
 }
