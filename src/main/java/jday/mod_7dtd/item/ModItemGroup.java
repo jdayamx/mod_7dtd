@@ -305,6 +305,7 @@ public class ModItemGroup {
                         entries.add(ModItems.bridgeConcreteBlock);
                         entries.add(ModItems.bridgeMetalRivetBlock);
                         entries.add(ModBlocks.bridgeWoodBlock);
+                        entries.add(ModBlocks.baseWoodBlock);
                         entries.add(ModItems.bucketEmpty);
                         entries.add(ModItems.bucketRiverWater);
                         entries.add(ModItems.bundleAmmo);
@@ -1055,7 +1056,7 @@ public class ModItemGroup {
                         entries.add(ModItems.controlPanelTop04);
                         entries.add(ModItems.controlPanelTop05);
                         entries.add(ModItems.controlPanelTop06);
-                        entries.add(ModItems.controlPanelTop07);
+                        entries.add(ModBlocks.controlPanelTop07);
                         entries.add(ModItems.corrugatedMetalAirDuct4Sides);
                         entries.add(ModItems.corrugatedMetalAirDuctBroken);
                         entries.add(ModItems.corrugatedMetalAirDuctHalfBroken);

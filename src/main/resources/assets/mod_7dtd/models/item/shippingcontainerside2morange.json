@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "m7dtd:item/shippingcontainerside2morange"
+        "layer0": "mod_7dtd:item/shippingcontainerside2morange"
     }
 }

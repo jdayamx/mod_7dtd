@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "m7dtd:item/banditplatform3x3a"
+        "layer0": "mod_7dtd:item/banditplatform3x3a"
     }
 }

@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_resourcewood": {
+    "has_resourcescrapiron": {
       "conditions": {
         "items": [
           {
             "items": [
-              "mod_7dtd:resourcewood"
+              "mod_7dtd:resourcescrapiron"
             ]
           }
         ]
@@ -18,11 +18,24 @@
         "recipe": "minecraft:bridgewoodblock"
       },
       "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_white_dye": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:white_dye"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
     }
   },
   "requirements": [
     [
-      "has_resourcewood",
+      "has_resourcescrapiron",
+      "has_white_dye",
       "has_the_recipe"
     ]
   ],

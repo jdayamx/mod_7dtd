@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "m7dtd:item/woodhalfdestroyed07left"
+        "layer0": "mod_7dtd:item/woodhalfdestroyed07left"
     }
 }

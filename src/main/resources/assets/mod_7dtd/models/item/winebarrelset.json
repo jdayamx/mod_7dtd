@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "m7dtd:item/winebarrelset"
+        "layer0": "mod_7dtd:item/winebarrelset"
     }
 }

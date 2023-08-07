@@ -1051,7 +1051,7 @@ public class ModItems {
     public static final Item controlPanelTop04 = registerItem("controlpaneltop04", new Item(new FabricItemSettings()));
     public static final Item controlPanelTop05 = registerItem("controlpaneltop05", new Item(new FabricItemSettings()));
     public static final Item controlPanelTop06 = registerItem("controlpaneltop06", new Item(new FabricItemSettings()));
-    public static final Item controlPanelTop07 = registerItem("controlpaneltop07", new Item(new FabricItemSettings()));
+    //public static final Item controlPanelTop07 = registerItem("controlpaneltop07", new Item(new FabricItemSettings()));
     public static final Item corrugatedMetalAirDuct4Sides = registerItem("corrugatedmetalairduct4sides", new Item(new FabricItemSettings()));
     public static final Item corrugatedMetalAirDuctBroken = registerItem("corrugatedmetalairductbroken", new Item(new FabricItemSettings()));
     public static final Item corrugatedMetalAirDuctHalfBroken = registerItem("corrugatedmetalairducthalfbroken", new Item(new FabricItemSettings()));

@@ -4,11 +4,14 @@
   "key": {
     "S": {
       "item": "mod_7dtd:resourcewood"
+    },
+    "W": {
+      "item": "mod_7dtd:basewoodblock"
     }
   },
   "pattern": [
     "SSS",
-    "SSS",
+    "SWS",
     "SSS"
   ],
   "result": {
