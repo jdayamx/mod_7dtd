@@ -33,12 +33,12 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('S', ModItems.resourceClayLump)
                 .criterion(hasItem(ModItems.resourceClayLump), conditionsFromItem(ModItems.resourceClayLump))
                 .offerTo(exporter, new Identifier(getRecipeName(Blocks.DIRT)));
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, Blocks.STONE, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, Blocks.COBBLESTONE, 1)
                 .pattern("SS")
                 .pattern("SS")
                 .input('S', ModItems.resourceRockSmall)
                 .criterion(hasItem(ModItems.resourceRockSmall), conditionsFromItem(ModItems.resourceRockSmall))
-                .offerTo(exporter, new Identifier(getRecipeName(Blocks.STONE)));
+                .offerTo(exporter, new Identifier(getRecipeName(Blocks.COBBLESTONE)));
 
         /*ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.resourceCrushedSand, 4)
                 .pattern("S")
