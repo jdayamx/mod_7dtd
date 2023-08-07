@@ -1043,7 +1043,7 @@ public class ModItems {
     public static final Item controlPanelBase05 = registerItem("controlpanelbase05", new Item(new FabricItemSettings()));
     public static final Item controlPanelBase06 = registerItem("controlpanelbase06", new Item(new FabricItemSettings()));
     public static final Item controlPanelBase07 = registerItem("controlpanelbase07", new Item(new FabricItemSettings()));
-    public static final Item controlPanelBase08 = registerItem("controlpanelbase08", new Item(new FabricItemSettings()));
+    //public static final Item controlPanelBase08 = registerItem("controlpanelbase08", new Item(new FabricItemSettings()));
     public static final Item controlPanelCorner = registerItem("controlpanelcorner", new Item(new FabricItemSettings()));
     public static final Item controlPanelTop01 = registerItem("controlpaneltop01", new Item(new FabricItemSettings()));
     public static final Item controlPanelTop02 = registerItem("controlpaneltop02", new Item(new FabricItemSettings()));

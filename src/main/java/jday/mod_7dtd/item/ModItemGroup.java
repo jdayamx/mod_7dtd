@@ -1047,7 +1047,7 @@ public class ModItemGroup {
                         entries.add(ModItems.controlPanelBase05);
                         entries.add(ModItems.controlPanelBase06);
                         entries.add(ModItems.controlPanelBase07);
-                        entries.add(ModItems.controlPanelBase08);
+                        entries.add(ModBlocks.controlPanelBase08);
                         entries.add(ModItems.controlPanelCorner);
                         entries.add(ModItems.controlPanelTop01);
                         entries.add(ModItems.controlPanelTop02);
