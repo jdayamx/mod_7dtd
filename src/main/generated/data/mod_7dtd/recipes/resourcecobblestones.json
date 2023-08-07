@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "mod_7dtd:resourcerocksmall"
+    },
+    "S": {
+      "item": "mod_7dtd:resourceclaylump"
+    }
+  },
+  "pattern": [
+    "SR"
+  ],
+  "result": {
+    "item": "mod_7dtd:resourcecobblestones"
+  },
+  "show_notification": true
+}
