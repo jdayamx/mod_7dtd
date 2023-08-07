@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "m7dtd:item/fakeconcretedoortrap1x1_5sheet"
+    }
+}
