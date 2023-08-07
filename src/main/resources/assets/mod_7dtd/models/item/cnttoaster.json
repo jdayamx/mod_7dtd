@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "m7dtd:item/cnttoaster"
+        "layer0": "mod_7dtd:item/cnttoaster"
     }
 }

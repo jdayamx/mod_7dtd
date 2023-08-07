@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "m7dtd:item/garbage_decor3"
+        "layer0": "mod_7dtd:item/garbage_decor3"
     }
 }

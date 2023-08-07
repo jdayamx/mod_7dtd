@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "m7dtd:item/cntstoreproducebasketgourds1"
+        "layer0": "mod_7dtd:item/cntstoreproducebasketgourds1"
     }
 }
