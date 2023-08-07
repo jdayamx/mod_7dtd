@@ -971,7 +971,7 @@ public class ModItems {
     public static final Item cntWoodenChestRottenClosed = registerItem("cntwoodenchestrottenclosed", new Item(new FabricItemSettings()));
     public static final Item cntWoodenChestRottenOpen = registerItem("cntwoodenchestrottenopen", new Item(new FabricItemSettings()));
     public static final Item cntWoodWritableCrate = registerItem("cntwoodwritablecrate", new Item(new FabricItemSettings()));
-    public static final Item cobblestoneMaster = registerItem("cobblestonemaster", new Item(new FabricItemSettings()));
+    //public static final Item cobblestoneMaster = registerItem("cobblestonemaster", new Item(new FabricItemSettings()));
     public static final Item cobweb = registerItem("cobweb", new Item(new FabricItemSettings()));
     public static final Item commercialBlindsBottom = registerItem("commercialblindsbottom", new Item(new FabricItemSettings()));
     public static final Item commercialBlindsTop = registerItem("commercialblindstop", new Item(new FabricItemSettings()));

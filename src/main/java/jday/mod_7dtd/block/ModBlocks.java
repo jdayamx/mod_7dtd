@@ -20,6 +20,8 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.GOLD_BLOCK).hardness(5f)));
     public static final Block controlPanelTop07 = registerBlock("controlpaneltop07",
             new Block(FabricBlockSettings.copyOf(Blocks.GOLD_BLOCK).hardness(2.5f)));
+    public static final Block cobblestoneMaster = registerBlock("cobblestonemaster",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE).hardness(2.5f)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

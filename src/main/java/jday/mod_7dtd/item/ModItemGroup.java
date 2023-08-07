@@ -976,7 +976,7 @@ public class ModItemGroup {
                         entries.add(ModItems.cntWoodenChestRottenClosed);
                         entries.add(ModItems.cntWoodenChestRottenOpen);
                         entries.add(ModItems.cntWoodWritableCrate);
-                        entries.add(ModItems.cobblestoneMaster);
+                        entries.add(ModBlocks.cobblestoneMaster);
                         entries.add(ModItems.cobweb);
                         entries.add(ModItems.commercialBlindsBottom);
                         entries.add(ModItems.commercialBlindsTop);

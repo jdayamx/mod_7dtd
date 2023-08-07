@@ -67,8 +67,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern("SSS")
                 .input('S', ModItems.resourceWood)
                 .input('W', ModBlocks.baseWoodBlock)
-                .criterion(hasItem(ModItems.resourceScrapIron), conditionsFromItem(ModItems.resourceScrapIron))
-                .criterion(hasItem(Items.WHITE_DYE), conditionsFromItem(Items.WHITE_DYE))
+                .criterion(hasItem(ModItems.resourceWood), conditionsFromItem(ModItems.resourceWood))
+                .criterion(hasItem(ModBlocks.baseWoodBlock), conditionsFromItem(ModBlocks.baseWoodBlock))
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.bridgeWoodBlock)));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.resourceCobblestones, 1)
@@ -77,6 +77,16 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('R', ModItems.resourceRockSmall)
                 .criterion(hasItem(ModItems.resourceWood), conditionsFromItem(ModItems.resourceWood))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.resourceCobblestones)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.cobblestoneMaster, 1)
+                .pattern("SSS")
+                .pattern("SWS")
+                .pattern("SSS")
+                .input('S', ModItems.resourceCobblestones)
+                .input('W', ModBlocks.bridgeWoodBlock)
+                .criterion(hasItem(ModItems.resourceCobblestones), conditionsFromItem(ModItems.resourceCobblestones))
+                .criterion(hasItem(ModBlocks.bridgeWoodBlock), conditionsFromItem(ModBlocks.bridgeWoodBlock))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.cobblestoneMaster)));
 
 
 

@@ -1,15 +1,17 @@
-// 1.20	2023-08-08T01:20:05.1239161	mod_7dtd/Recipes
+// 1.20	2023-08-08T01:39:03.3257571	mod_7dtd/Recipes
 d9fa7f7b0748d1ac2f05425396e55b0871fc86fb data\mod_7dtd\recipes\cobblestone.json
 5798dbaae04bb78cac12e55c0149ed24152201a0 data\mod_7dtd\recipes\sand.json
 58ca021209f646e26bf9f39cdb2a8abf166303ec data\mod_7dtd\recipes\resourcecobblestones.json
-ff9f9d7b19c5201d3d05ede23302ff1b00e65321 data\mod_7dtd\advancements\recipes\misc\sand.json
 862e2a45c129fe52eea107c6cc02e091a4c87169 data\mod_7dtd\recipes\basewoodblock.json
+ff9f9d7b19c5201d3d05ede23302ff1b00e65321 data\mod_7dtd\advancements\recipes\misc\sand.json
 7fb55fd510087d733f916e940464716e6009c5c2 data\mod_7dtd\advancements\recipes\misc\basewoodblock.json
+d0f04aa5ca5bb5896b8e5d15a99f7402988f7f7d data\mod_7dtd\advancements\recipes\misc\cobblestonemaster.json
 57227d272f8a8c4ba2671ddd492e81e6b0c03836 data\mod_7dtd\recipes\bridgewoodblock.json
 c066c8b35d62db6669e46cf701ca58f870c201b9 data\mod_7dtd\advancements\recipes\misc\resourcecobblestones.json
 5a2247edf14f5c20179096b6171ced8df93f7ba5 data\mod_7dtd\recipes\dirt.json
 f73a5d8109f49cfb655f1837cb1fc406eecbe151 data\mod_7dtd\recipes\controlpanelbase08.json
-3250b8f236cd2f9041076ec2863f77ca6ef36dad data\mod_7dtd\advancements\recipes\misc\bridgewoodblock.json
+a4c0951fd87064fe71b749da6e90310887e5caa0 data\mod_7dtd\advancements\recipes\misc\bridgewoodblock.json
 8631c23cd1968f5a9d4333b6614b489710b7b268 data\mod_7dtd\advancements\recipes\misc\controlpanelbase08.json
 8636e6acab54e0b810215beaf6dc4454108ba1fe data\mod_7dtd\advancements\recipes\misc\dirt.json
 7516bb3a4fb23d3b5ec250e8912d45ad4d40a3c0 data\mod_7dtd\advancements\recipes\misc\cobblestone.json
+b243f2ad2e03708c4dbeb4bdeeb77751e89d6c0c data\mod_7dtd\recipes\cobblestonemaster.json
