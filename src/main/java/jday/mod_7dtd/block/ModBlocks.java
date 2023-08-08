@@ -1,6 +1,7 @@
 package jday.mod_7dtd.block;
 
 import jday.mod_7dtd.Mod_7dtd;
+import jday.mod_7dtd.block.custom.UpdateOnUse;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -13,15 +14,16 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     public static final Block bridgeWoodBlock = registerBlock("bridgewoodblock",
-            new Block(FabricBlockSettings.copyOf(Blocks.OAK_WOOD)));
+            new UpdateOnUse(FabricBlockSettings.copyOf(Blocks.OAK_WOOD)));
     public static final Block baseWoodBlock = registerBlock("basewoodblock",
-            new Block(FabricBlockSettings.copyOf(Blocks.OAK_WOOD).hardness(0.1f)));
+            new UpdateOnUse(FabricBlockSettings.copyOf(Blocks.OAK_WOOD).hardness(0.1f)));
+
     public static final Block controlPanelBase08 = registerBlock("controlpanelbase08",
             new Block(FabricBlockSettings.copyOf(Blocks.GOLD_BLOCK).hardness(5f)));
     public static final Block controlPanelTop07 = registerBlock("controlpaneltop07",
             new Block(FabricBlockSettings.copyOf(Blocks.GOLD_BLOCK).hardness(2.5f)));
     public static final Block cobblestoneMaster = registerBlock("cobblestonemaster",
-            new Block(FabricBlockSettings.copyOf(Blocks.STONE).hardness(2.5f)));
+            new UpdateOnUse(FabricBlockSettings.copyOf(Blocks.STONE).hardness(2.5f)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
