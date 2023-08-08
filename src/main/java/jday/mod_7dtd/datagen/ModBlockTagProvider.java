@@ -21,6 +21,19 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.cobblestoneMaster)
                 .add(ModBlocks.controlPanelBase08)
+                .add(ModBlocks.controlPanelTop07)
+                .add(ModBlocks.concreteMaster)
+                .add(ModBlocks.steelMaster);
+
+        getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
+                .add(ModBlocks.cobblestoneMaster);
+
+        getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
+                .add(ModBlocks.steelMaster);
+
+        getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
+                .add(ModBlocks.concreteMaster)
+                .add(ModBlocks.controlPanelBase08)
                 .add(ModBlocks.controlPanelTop07);
         /*
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)

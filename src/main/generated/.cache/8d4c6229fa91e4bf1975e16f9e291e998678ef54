@@ -1,2 +1,5 @@
-// 1.20	2023-08-08T02:04:13.2736029	mod_7dtd/Tags for minecraft:block
-cc6e8b8e9dea209656bb558714cef6d5884f9628 data\minecraft\tags\blocks\mineable\pickaxe.json
+// 1.20	2023-08-08T14:28:28.2439672	mod_7dtd/Tags for minecraft:block
+094478aa4c3c0402a660f6bc67b97f115e552123 data\minecraft\tags\blocks\needs_diamond_tool.json
+9a9b12929aa829ea0312b0d5470a0985c70568a2 data\minecraft\tags\blocks\needs_iron_tool.json
+ff0e92fe76d083092e2ea462c1dd3c19e30cc412 data\minecraft\tags\blocks\mineable\pickaxe.json
+5b38c79afb24e26b317f82389530b3ef95f89ca8 data\minecraft\tags\blocks\needs_stone_tool.json

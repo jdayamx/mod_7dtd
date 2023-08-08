@@ -1018,7 +1018,7 @@ public class ModItems {
     public static final Item concreteHalfDestroyed08 = registerItem("concretehalfdestroyed08", new Item(new FabricItemSettings()));
     public static final Item concreteHalfDestroyed09 = registerItem("concretehalfdestroyed09", new Item(new FabricItemSettings()));
     public static final Item concreteHalfDestroyedFiller01 = registerItem("concretehalfdestroyedfiller01", new Item(new FabricItemSettings()));
-    public static final Item concreteMaster = registerItem("concretemaster", new Item(new FabricItemSettings()));
+    //public static final Item concreteMaster = registerItem("concretemaster", new Item(new FabricItemSettings()));
     public static final Item concreteNoUpgradeMaster = registerItem("concretenoupgrademaster", new Item(new FabricItemSettings()));
     public static final Item concretePillar100Destroyed = registerItem("concretepillar100destroyed", new Item(new FabricItemSettings()));
     public static final Item concretePillar50CornerDestroyed = registerItem("concretepillar50cornerdestroyed", new Item(new FabricItemSettings()));
@@ -2445,7 +2445,7 @@ public class ModItems {
     public static final Item steelGarageDoor3X3White = registerItem("steelgaragedoor3x3white", new Item(new FabricItemSettings()));
     public static final Item steelGarageDoor4X3White = registerItem("steelgaragedoor4x3white", new Item(new FabricItemSettings()));
     public static final Item steelGarageDoor5X3White = registerItem("steelgaragedoor5x3white", new Item(new FabricItemSettings()));
-    public static final Item steelMaster = registerItem("steelmaster", new Item(new FabricItemSettings()));
+    //public static final Item steelMaster = registerItem("steelmaster", new Item(new FabricItemSettings()));
     public static final Item stoneNoUpgradeMaster = registerItem("stonenoupgrademaster", new Item(new FabricItemSettings()));
     public static final Item streetLight01 = registerItem("streetlight01", new Item(new FabricItemSettings()));
     public static final Item streetLight02 = registerItem("streetlight02", new Item(new FabricItemSettings()));

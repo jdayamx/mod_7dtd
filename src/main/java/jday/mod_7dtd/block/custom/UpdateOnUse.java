@@ -34,8 +34,6 @@ public class UpdateOnUse extends Block {
         PlayerInventory inv = player.getInventory();
         if (inv.getMainHandStack().isOf(Items.STONE_AXE)) {
             // check if stone axe in hand
-            //world.playSound(player, pos, SoundEvents.ENTITY_PIG_HURT, SoundCategory.BLOCKS, 1f, 1f);
-
             if (state.isOf(ModBlocks.baseWoodBlock)) {
                 //world.playSound(player, pos, SoundEvents.ITEM_SPYGLASS_USE, SoundCategory.BLOCKS, 1f, 1f);
                 int sl = inv.indexOf(ModItems.resourceWood.getDefaultStack());
@@ -46,11 +44,13 @@ public class UpdateOnUse extends Block {
                         ItemStack sss = new ItemStack(ModItems.resourceWood, st -8);
                         world.playSound(player, pos, SoundEvents.BLOCK_WOOD_STEP, SoundCategory.BLOCKS, 2f, 2f);
                         inv.setStack(sl, sss);
-                        player.sendMessage(Text.of("Block is updated"), true);
+                        player.sendMessage(Text.of("§2Block is updated"), true);
                         world.setBlockState(pos, ModBlocks.bridgeWoodBlock.getDefaultState());
                     } else {
-                        player.sendMessage(Text.of("&4Not found resources"), true);
+                        player.sendMessage(Text.of("§eNot enough resources"), true);
                     }
+                } else {
+                    player.sendMessage(Text.of("§4Not found resources"), true);
                 }
             }  else if (state.isOf(ModBlocks.bridgeWoodBlock)) {
                 int sl = inv.indexOf(ModItems.resourceCobblestones.getDefaultStack());
@@ -64,16 +64,51 @@ public class UpdateOnUse extends Block {
                         player.sendMessage(Text.of("§2Block is updated"), true);
                         world.setBlockState(pos, ModBlocks.cobblestoneMaster.getDefaultState());
                     } else {
-                        player.sendMessage(Text.of("§eNot found resources"), true);
+                        player.sendMessage(Text.of("§eNot enough resources"), true);
                     }
+                } else {
+                    player.sendMessage(Text.of("§4Not found resources"), true);
+                }
+            } else if (state.isOf(ModBlocks.cobblestoneMaster)) {
+                int sl = inv.indexOf(ModItems.resourceConcreteMix.getDefaultStack());
+                if (sl > 0) {
+                    int st = inv.getStack(sl).getCount();
+
+                    if (st >= 8) {
+                        ItemStack sss = new ItemStack(ModItems.resourceConcreteMix, st -8);
+                        world.playSound(player, pos, SoundEvents.BLOCK_DRIPSTONE_BLOCK_FALL, SoundCategory.BLOCKS, 1f, 1f);
+                        inv.setStack(sl, sss);
+                        player.sendMessage(Text.of("§2Block is updated"), true);
+                        world.setBlockState(pos, ModBlocks.concreteMaster.getDefaultState());
+                    } else {
+                        player.sendMessage(Text.of("§eNot enough resources"), true);
+                    }
+                } else {
+                    player.sendMessage(Text.of("§4Not found resources"), true);
+                }
+            } else if (state.isOf(ModBlocks.concreteMaster)) {
+                int sl = inv.indexOf(ModItems.resourceForgedSteel.getDefaultStack());
+                if (sl > 0) {
+                    int st = inv.getStack(sl).getCount();
+
+                    if (st >= 8) {
+                        ItemStack sss = new ItemStack(ModItems.resourceForgedSteel, st -8);
+                        world.playSound(player, pos, SoundEvents.BLOCK_DRIPSTONE_BLOCK_FALL, SoundCategory.BLOCKS, 1f, 1f);
+                        inv.setStack(sl, sss);
+                        player.sendMessage(Text.of("§2Block is updated"), true);
+                        world.setBlockState(pos, ModBlocks.steelMaster.getDefaultState());
+                    } else {
+                        player.sendMessage(Text.of("§eNot enough resources"), true);
+                    }
+                } else {
+                    player.sendMessage(Text.of("§4Not found resources"), true);
                 }
             } else {
-                world.playSound(player, pos, SoundEvents.BLOCK_NOTE_BLOCK_XYLOPHONE.value(), SoundCategory.BLOCKS, 1f, 1f);
+                return ActionResult.FAIL;
             }
 
         } else {
             return ActionResult.FAIL;
-            //world.playSound(player, pos, SoundEvents.BLOCK_NOTE_BLOCK_XYLOPHONE.value(), SoundCategory.BLOCKS, 1f, 1f);
         }
 
         //if (inv.indexOf(ModItems.resourceWood))

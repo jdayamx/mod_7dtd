@@ -16,7 +16,9 @@ public class ModLootTableProvider  extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.bridgeWoodBlock, ModItems.resourceWood);
         addDrop(ModBlocks.baseWoodBlock, ModItems.resourceWood);
         addDrop(ModBlocks.controlPanelBase08, ModItems.resourceScrapIron);
-        addDrop(ModBlocks.cobblestoneMaster, ModItems.resourceCobblestones);
+        addDrop(ModBlocks.cobblestoneMaster, ModItems.resourceRockSmall);
+        addDrop(ModBlocks.concreteMaster, ModItems.resourceRockSmall);
+        addDrop(ModBlocks.steelMaster, ModItems.resourceScrapIron);
 
         addDrop(Blocks.SAND, ModItems.resourceCrushedSand);
         addDrop(Blocks.GRASS_BLOCK, ModItems.resourceClayLump);

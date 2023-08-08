@@ -1,6 +1,10 @@
-// 1.20	2023-08-08T02:04:13.2716014	mod_7dtd/Recipes
+// 1.20	2023-08-08T14:28:28.2419683	mod_7dtd/Recipes
 d9fa7f7b0748d1ac2f05425396e55b0871fc86fb data\mod_7dtd\recipes\cobblestone.json
+1a63e3ad76f74db87c68b9a22877999300aff9ed data\mod_7dtd\recipes\concretemaster.json
 5798dbaae04bb78cac12e55c0149ed24152201a0 data\mod_7dtd\recipes\sand.json
+7e0543c96f02589d0124b7269a9c19941ef9d952 data\mod_7dtd\recipes\steelmaster.json
+6b8bf0b1dd0f3206d1d3bb0cb1dd5690da520adc data\mod_7dtd\advancements\recipes\misc\concretemaster.json
+64b0ea47c5f32ac8cda78ffaf9449a824f9987ef data\mod_7dtd\advancements\recipes\misc\steelmaster.json
 58ca021209f646e26bf9f39cdb2a8abf166303ec data\mod_7dtd\recipes\resourcecobblestones.json
 ff9f9d7b19c5201d3d05ede23302ff1b00e65321 data\mod_7dtd\advancements\recipes\misc\sand.json
 862e2a45c129fe52eea107c6cc02e091a4c87169 data\mod_7dtd\recipes\basewoodblock.json

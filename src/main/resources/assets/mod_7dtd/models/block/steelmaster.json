@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "mod_7dtd:block/steelmaster",
+    "up": "mod_7dtd:block/steelmaster_tp",
+    "down": "mod_7dtd:block/steelmaster_bt"
+  }
+}

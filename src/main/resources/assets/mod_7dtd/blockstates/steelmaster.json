@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "": { "model": "mod_7dtd:block/steelmaster" },
+    "east=true,north=false,south=false,west=false": { "model": "mod_7dtd:block/steelmaster", "y": 90, "uvlock": true }
+  }
+}

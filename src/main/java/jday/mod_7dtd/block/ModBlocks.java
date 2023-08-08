@@ -19,11 +19,15 @@ public class ModBlocks {
             new UpdateOnUse(FabricBlockSettings.copyOf(Blocks.OAK_WOOD).hardness(0.1f)));
 
     public static final Block controlPanelBase08 = registerBlock("controlpanelbase08",
-            new Block(FabricBlockSettings.copyOf(Blocks.GOLD_BLOCK).hardness(5f)));
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).hardness(30f)));
     public static final Block controlPanelTop07 = registerBlock("controlpaneltop07",
-            new Block(FabricBlockSettings.copyOf(Blocks.GOLD_BLOCK).hardness(2.5f)));
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).hardness(20f)));
     public static final Block cobblestoneMaster = registerBlock("cobblestonemaster",
-            new UpdateOnUse(FabricBlockSettings.copyOf(Blocks.STONE).hardness(2.5f)));
+            new UpdateOnUse(FabricBlockSettings.copyOf(Blocks.STONE).hardness(10f)));
+    public static final Block concreteMaster = registerBlock("concretemaster",
+            new UpdateOnUse(FabricBlockSettings.copyOf(Blocks.STONE).hardness(20f)));
+    public static final Block steelMaster = registerBlock("steelmaster",
+            new UpdateOnUse(FabricBlockSettings.copyOf(Blocks.STONE).hardness(50f)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

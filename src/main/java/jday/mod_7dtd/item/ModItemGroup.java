@@ -1023,7 +1023,7 @@ public class ModItemGroup {
                         entries.add(ModItems.concreteHalfDestroyed08);
                         entries.add(ModItems.concreteHalfDestroyed09);
                         entries.add(ModItems.concreteHalfDestroyedFiller01);
-                        entries.add(ModItems.concreteMaster);
+                        entries.add(ModBlocks.concreteMaster);
                         entries.add(ModItems.concreteNoUpgradeMaster);
                         entries.add(ModItems.concretePillar100Destroyed);
                         entries.add(ModItems.concretePillar50CornerDestroyed);
@@ -2333,7 +2333,7 @@ public class ModItemGroup {
                         entries.add(ModItems.steelGarageDoor3X3White);
                         entries.add(ModItems.steelGarageDoor4X3White);
                         entries.add(ModItems.steelGarageDoor5X3White);
-                        entries.add(ModItems.steelMaster);
+                        entries.add(ModBlocks.steelMaster);
                         entries.add(ModItems.stoneNoUpgradeMaster);
                         entries.add(ModItems.streetLight01);
                         entries.add(ModItems.streetLight02);

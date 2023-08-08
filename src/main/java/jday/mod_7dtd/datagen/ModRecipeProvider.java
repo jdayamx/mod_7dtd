@@ -88,7 +88,25 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModBlocks.bridgeWoodBlock), conditionsFromItem(ModBlocks.bridgeWoodBlock))
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.cobblestoneMaster)));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.concreteMaster, 1)
+                .pattern("SSS")
+                .pattern("SWS")
+                .pattern("SSS")
+                .input('S', ModItems.resourceConcreteMix)
+                .input('W', ModBlocks.cobblestoneMaster)
+                .criterion(hasItem(ModItems.resourceCobblestones), conditionsFromItem(ModItems.resourceCobblestones))
+                .criterion(hasItem(ModBlocks.bridgeWoodBlock), conditionsFromItem(ModBlocks.bridgeWoodBlock))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.concreteMaster)));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.steelMaster, 1)
+                .pattern("SSS")
+                .pattern("SWS")
+                .pattern("SSS")
+                .input('S', ModItems.resourceForgedSteel)
+                .input('W', ModBlocks.concreteMaster)
+                .criterion(hasItem(ModItems.resourceForgedSteel), conditionsFromItem(ModItems.resourceForgedSteel))
+                .criterion(hasItem(ModBlocks.concreteMaster), conditionsFromItem(ModBlocks.concreteMaster))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.steelMaster)));
 
     }
 }

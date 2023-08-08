@@ -3,6 +3,8 @@
   "values": [
     "mod_7dtd:cobblestonemaster",
     "mod_7dtd:controlpanelbase08",
-    "mod_7dtd:controlpaneltop07"
+    "mod_7dtd:controlpaneltop07",
+    "mod_7dtd:concretemaster",
+    "mod_7dtd:steelmaster"
   ]
 }
