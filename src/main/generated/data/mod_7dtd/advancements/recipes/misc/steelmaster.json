@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_concretemaster": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mod_7dtd:concretemaster"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_resourceforgedsteel": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mod_7dtd:resourceforgedsteel"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:steelmaster"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_resourceforgedsteel",
+      "has_concretemaster",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:steelmaster"
+    ]
+  },
+  "sends_telemetry_event": false
+}
