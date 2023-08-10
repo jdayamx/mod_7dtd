@@ -1,6 +1,7 @@
 package jday.mod_7dtd.client;
 
 import jday.mod_7dtd.Mod_7dtd;
+import jday.mod_7dtd.item.ModItems;
 import net.fabricmc.fabric.api.client.rendering.v1.HudRenderCallback;
 import net.minecraft.client.font.TextRenderer;
 import net.minecraft.client.font.FontStorage;
@@ -10,19 +11,35 @@ import net.minecraft.client.render.GameRenderer;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.DrawContext;
+import net.minecraft.server.MinecraftServer;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
+import net.minecraft.world.World;
+
+import java.util.Arrays;
+import java.util.List;
+
+import static net.minecraft.util.math.MathHelper.wrapDegrees;
 
 public class HudOverlay implements HudRenderCallback {
     private String icons = "";
     private float max_strong = 20;
     private float strong = 20;
+    private int x_day = 7;
+
+    //private static final List<String> direction = Arrays.asList("s", "sw", "w", "nw", "n", "ne", "e", "se", "s");
     private static final Identifier BLUE_UI = new Identifier(Mod_7dtd.MOD_ID,
             "textures/ui/blue_hud.png");
     private static final Identifier RED_UI = new Identifier(Mod_7dtd.MOD_ID,
             "textures/ui/red_hud.png");
     private static final Identifier EMPTY_UI = new Identifier(Mod_7dtd.MOD_ID,
             "textures/ui/empty_hud.png");
+    // needs texture 360px x 7px
+    private static final Identifier LINE_COMPASS = new Identifier(Mod_7dtd.MOD_ID,
+            "textures/ui/line_compass.png");
+
+    private static final Identifier ICON_TEXTURE = new Identifier(Mod_7dtd.MOD_ID, "textures/ui/test.png");
+
     @Override
     public void onHudRender(DrawContext drawContext, float tickDelta) {
         int x = 0;
@@ -39,11 +56,53 @@ public class HudOverlay implements HudRenderCallback {
             y = height;
         }
         PlayerEntity p = client.player;
+        World world = client.world;
+
+        float degrees = wrapDegrees(p.getRotationClient().y);
+
+        if (degrees < 0) {
+            degrees += 360;
+        }
+
+        //int facing = Math.round(degrees/45);
+
         int hp = (80 * (int) p.getHealth()) / (int) p.getMaxHealth();
         int fl = Integer.parseInt(String.valueOf(p.getHungerManager().getFoodLevel()));
-        String is_rain = client.world.isRaining() ? " r" : "";
-        String is_thunder = client.world.isThundering() ? " t" : "";
+        String is_rain = world.isRaining() ? " r" : "";
+        String is_thunder = world.isThundering() ? " t" : "";
         this.icons = is_rain + is_thunder + (fl < 10 ? " f" : "");
+
+        long ticks = world.getTimeOfDay();
+        int worldDays = (int) (ticks / 24000);
+
+        String hours = String.format("%02d", (ticks / 1000 + 6) % 24); // Adding 6 to shift the starting point to sunrise
+        String minutes = String.format("%02d",((ticks % 1000) * 60) / 1000);
+
+        Boolean is_7day = worldDays % x_day == 0;
+
+        String displayDays = String.valueOf(worldDays);
+
+        if (is_7day) {
+            displayDays = "§4" + String.valueOf(worldDays);
+        }
+
+        String day = "DAY: " + displayDays + " TIME: " + hours + ":" + minutes;
+        //String toShow = direction.get(facing);
+
+        //drawContext.drawText(client.textRenderer, toShow, x - client.textRenderer.getWidth(toShow) / 2, 10, (255 << 16) + (255 << 8) + 255, false);
+
+        drawContext.drawText(client.textRenderer, day, x - client.textRenderer.getWidth(day) / 2, 20, (255 << 16) + (255 << 8) + 255, false);
+
+        // -------- debug slot ---------
+        drawContext.drawTexture(LINE_COMPASS, x - 50,5,degrees - 50,0,100, 7, 360, 7);
+        // -----------------------------
+
+        //int iconSize = 16;
+        //client.getTextureManager().bindTexture(ICON_TEXTURE);
+        //drawContext.drawItem(ModItems.chimneyBlackPOI.getDefaultStack(), 10, 60);
+        //drawContext.drawTexture(ICON_TEXTURE, 10,10,0,0,iconSize, iconSize, iconSize, iconSize);
+        //drawContext.drawTexture(EMPTY_UI, 10,30,0,0,80, 20, 80, 20);
+
 
         if (this.icons.length() > 0) {
             //drawContext.drawText(client.textRenderer, String.valueOf(p.getHungerManager().getFoodLevel()), 11, 11, (255 << 16) + (255 << 8) + 100, false);

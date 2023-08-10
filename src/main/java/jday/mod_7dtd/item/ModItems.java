@@ -13,6 +13,15 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item M7DTD = registerItem("m7dtd", new Item(new FabricItemSettings()));
     public static final Item M7DTD_FOOD = registerItem("m7dtd_food", new Item(new FabricItemSettings()));
+    public static final Item M7DTD_BLOCK = registerItem("m7dtd_block", new Item(new FabricItemSettings()));
+    public static final Item M7DTD_BOOK = registerItem("m7dtd_book", new Item(new FabricItemSettings()));
+    public static final Item M7DTD_TREE = registerItem("m7dtd_tree", new Item(new FabricItemSettings()));
+    public static final Item M7DTD_ARMOR = registerItem("m7dtd_armor", new Item(new FabricItemSettings()));
+    public static final Item M7DTD_RESOURCE = registerItem("m7dtd_resource", new Item(new FabricItemSettings()));
+    public static final Item M7DTD_AMMO = registerItem("m7dtd_ammo", new Item(new FabricItemSettings()));
+    public static final Item M7DTD_TOOL = registerItem("m7dtd_tool", new Item(new FabricItemSettings()));
+    public static final Item M7DTD_MOD = registerItem("m7dtd_mod", new Item(new FabricItemSettings()));
+    public static final Item M7DTD_WEAPON = registerItem("m7dtd_weapon", new Item(new FabricItemSettings()));
     public static final Item abandonedPickupTruck01DoorWhite = registerItem("abandonedpickuptruck01doorwhite", new Item(new FabricItemSettings()));
     public static final Item abandonedPickupTruck01White = registerItem("abandonedpickuptruck01white", new Item(new FabricItemSettings()));
     public static final Item abandonedPickupTruck3Wide01DoorWhite = registerItem("abandonedpickuptruck3wide01doorwhite", new Item(new FabricItemSettings()));

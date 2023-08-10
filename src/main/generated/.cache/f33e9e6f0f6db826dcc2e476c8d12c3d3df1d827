@@ -1,11 +1,11 @@
-// 1.20	2023-08-08T14:28:28.2449673	mod_7dtd/Block Loot Tables
-29f840aa2c2c8ecd68ec0914717dbf4c0d174589 data\minecraft\loot_tables\blocks\dirt.json
+// 1.20	2023-08-10T20:56:31.420339	mod_7dtd/Block Loot Tables
 da5255f15aea4d46d2f6d9fe3f5ded2bd049b731 data\mod_7dtd\loot_tables\blocks\steelmaster.json
+29f840aa2c2c8ecd68ec0914717dbf4c0d174589 data\minecraft\loot_tables\blocks\dirt.json
 588d83ea76af068271e758680e472a5a2b71b92c data\mod_7dtd\loot_tables\blocks\concretemaster.json
 29f840aa2c2c8ecd68ec0914717dbf4c0d174589 data\minecraft\loot_tables\blocks\grass_block.json
 da5255f15aea4d46d2f6d9fe3f5ded2bd049b731 data\mod_7dtd\loot_tables\blocks\controlpanelbase08.json
 8c4c39a42dfa25ca0510946e0c5050a65e13aa0e data\minecraft\loot_tables\blocks\sand.json
-6479cd2143d9544f3864b549857213214b85aa4b data\mod_7dtd\loot_tables\blocks\basewoodblock.json
 588d83ea76af068271e758680e472a5a2b71b92c data\mod_7dtd\loot_tables\blocks\cobblestonemaster.json
-6479cd2143d9544f3864b549857213214b85aa4b data\mod_7dtd\loot_tables\blocks\bridgewoodblock.json
+6479cd2143d9544f3864b549857213214b85aa4b data\mod_7dtd\loot_tables\blocks\basewoodblock.json
 588d83ea76af068271e758680e472a5a2b71b92c data\minecraft\loot_tables\blocks\stone.json
+6479cd2143d9544f3864b549857213214b85aa4b data\mod_7dtd\loot_tables\blocks\bridgewoodblock.json

@@ -11,6 +11,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
+import net.minecraft.text.LiteralTextContent;
 import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
@@ -41,11 +42,21 @@ public class UpdateOnUse extends Block {
                     int st = inv.getStack(sl).getCount();
 
                     if (st >= 8) {
-                        ItemStack sss = new ItemStack(ModItems.resourceWood, st -8);
-                        world.playSound(player, pos, SoundEvents.BLOCK_WOOD_STEP, SoundCategory.BLOCKS, 2f, 2f);
-                        inv.setStack(sl, sss);
-                        player.sendMessage(Text.of("§2Block is updated"), true);
-                        world.setBlockState(pos, ModBlocks.bridgeWoodBlock.getDefaultState());
+                        int dm = inv.getMainHandStack().getDamage();
+                        dm += 5;
+                        if (dm > inv.getMainHandStack().getMaxDamage()) {
+                            dm = inv.getMainHandStack().getMaxDamage();
+                        }
+                        inv.getMainHandStack().setDamage(dm);
+                        if (dm < inv.getMainHandStack().getMaxDamage()) {
+                            ItemStack sss = new ItemStack(ModItems.resourceWood, st - 8);
+                            world.playSound(player, pos, SoundEvents.BLOCK_WOOD_STEP, SoundCategory.BLOCKS, 2f, 2f);
+                            inv.setStack(sl, sss);
+                            player.sendMessage(Text.of("§2Block is updated"), true);
+                            world.setBlockState(pos, ModBlocks.bridgeWoodBlock.getDefaultState());
+                        } else {
+                            player.sendMessage(Text.of("§4Tool is broken"), true);
+                        }
                     } else {
                         player.sendMessage(Text.of("§eNot enough resources"), true);
                     }
