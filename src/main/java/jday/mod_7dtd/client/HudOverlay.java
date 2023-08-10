@@ -83,7 +83,7 @@ public class HudOverlay implements HudRenderCallback {
         String displayDays = String.valueOf(worldDays);
 
         if (is_7day) {
-            displayDays = "§4" + String.valueOf(worldDays);
+            displayDays = "§c" + String.valueOf(worldDays) + "§f";
         }
 
         String day = "DAY: " + displayDays + " TIME: " + hours + ":" + minutes;

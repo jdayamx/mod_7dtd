@@ -1,0 +1,5 @@
+{
+  "sources": [
+    { "type": "single", "resource": "mod_7dtd:model/cntshippingcratebookstore" }
+  ]
+}
