@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "": { "model": "mod_7dtd:block/cntshippingcratebookstore" },
+    "east=true,north=false,south=false,west=false": { "model": "mod_7dtd:block/cntshippingcratebookstore", "y": 90, "uvlock": true }
+  }
+}

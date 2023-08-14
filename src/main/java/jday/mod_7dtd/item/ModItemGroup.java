@@ -641,7 +641,6 @@ public class ModItemGroup {
                         entries.add(ModItems.cntShelvesMetalFullA);
                         entries.add(ModItems.cntShelvesWoodEmpty);
                         entries.add(ModItems.cntShelvesWoodFullA);
-                        entries.add(ModItems.cntShippingCrateBookstore);
                         entries.add(ModItems.cntShippingCrateCarParts);
                         entries.add(ModItems.cntShippingCrateHero);
                         entries.add(ModItems.cntShippingCrateLabEquipment);
@@ -2362,10 +2361,10 @@ public class ModItemGroup {
                         entries.add(ModBlocks.cobblestoneMaster);
                         entries.add(ModBlocks.concreteMaster);
                         entries.add(ModBlocks.steelMaster);
-
                         entries.add(ModBlocks.controlPanelBase08);
                         entries.add(ModBlocks.controlPanelTop07);
                         entries.add(ModBlocks.TEST7DTD);
+                        entries.add(ModBlocks.cntShippingCrateBookstore);
                     }).build());
     public static final ItemGroup m7dtd_GROUP_WEAPON = Registry.register(Registries.ITEM_GROUP,
             new Identifier(Mod_7dtd.MOD_ID, "m7dtd_weapon"),

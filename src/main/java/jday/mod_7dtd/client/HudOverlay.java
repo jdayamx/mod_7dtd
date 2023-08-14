@@ -38,7 +38,8 @@ public class HudOverlay implements HudRenderCallback {
     private static final Identifier LINE_COMPASS = new Identifier(Mod_7dtd.MOD_ID,
             "textures/ui/line_compass.png");
 
-    private static final Identifier ICON_TEXTURE = new Identifier(Mod_7dtd.MOD_ID, "textures/ui/test.png");
+    private static final Identifier ICON_RAIN= new Identifier(Mod_7dtd.MOD_ID, "textures/ui/icons/icon_rain.png");
+    private static final Identifier ICON_THUNDER= new Identifier(Mod_7dtd.MOD_ID, "textures/ui/icons/icon_thunder.png");
 
     @Override
     public void onHudRender(DrawContext drawContext, float tickDelta) {
@@ -82,7 +83,7 @@ public class HudOverlay implements HudRenderCallback {
 
         String displayDays = String.valueOf(worldDays);
 
-        if (is_7day) {
+        if (is_7day && worldDays > 0) {
             displayDays = "§c" + String.valueOf(worldDays) + "§f";
         }
 
@@ -97,7 +98,8 @@ public class HudOverlay implements HudRenderCallback {
         drawContext.drawTexture(LINE_COMPASS, x - 50,5,degrees - 50,0,100, 7, 360, 7);
         // -----------------------------
 
-        //int iconSize = 16;
+        int iconSize = 16;
+        int stepSize = iconSize + 5;
         //client.getTextureManager().bindTexture(ICON_TEXTURE);
         //drawContext.drawItem(ModItems.chimneyBlackPOI.getDefaultStack(), 10, 60);
         //drawContext.drawTexture(ICON_TEXTURE, 10,10,0,0,iconSize, iconSize, iconSize, iconSize);
@@ -114,11 +116,13 @@ public class HudOverlay implements HudRenderCallback {
             // ❄
             if (this.icons.indexOf("r") > 0) {
                 i++;
-                drawContext.drawText(client.textRenderer, "☂", 10, y - (45 + (i * 16)), (255 << 16) + (255 << 8) + 255, false);
+                drawContext.drawTexture(ICON_RAIN, 10,y - (45 + (i * stepSize)),0,0,iconSize, iconSize, iconSize, iconSize);
+                //drawContext.drawText(client.textRenderer, "☂", 10, y - (45 + (i * 16)), (255 << 16) + (255 << 8) + 255, false);
             }
             if (this.icons.indexOf("t") > 0) {
                 i++;
-                drawContext.drawText(client.textRenderer, "⚡", 10, y - (45 + (i * 16)), (255 << 16) + (255 << 8) + 255, false);
+                drawContext.drawTexture(ICON_THUNDER, 10,y - (45 + (i * stepSize)),0,0,iconSize, iconSize, iconSize, iconSize);
+                //drawContext.drawText(client.textRenderer, "⚡", 10, y - (45 + (i * 16)), (255 << 16) + (255 << 8) + 255, false);
             }
 
             if (this.icons.indexOf("f") > 0) {
@@ -127,7 +131,7 @@ public class HudOverlay implements HudRenderCallback {
                 if (fl < 5) {
                     fc = (255 << 16) + (100 << 8) + 100;
                 }
-                drawContext.drawText(client.textRenderer, "\uD83C\uDF7D", 10, y - (45 + (i * 16)), fc, false);
+                drawContext.drawText(client.textRenderer, "\uD83C\uDF7D", 10, y - (45 + (i * stepSize)), fc, false);
             }
         }
 

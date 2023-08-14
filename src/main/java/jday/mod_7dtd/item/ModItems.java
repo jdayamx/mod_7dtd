@@ -808,7 +808,7 @@ public class ModItems {
     public static final Item cntShelvesMetalFullA = registerItem("cntshelvesmetalfulla", new Item(new FabricItemSettings()));
     public static final Item cntShelvesWoodEmpty = registerItem("cntshelveswoodempty", new Item(new FabricItemSettings()));
     public static final Item cntShelvesWoodFullA = registerItem("cntshelveswoodfulla", new Item(new FabricItemSettings()));
-    public static final Item cntShippingCrateBookstore = registerItem("cntshippingcratebookstore", new Item(new FabricItemSettings()));
+    //public static final Item cntShippingCrateBookstore = registerItem("cntshippingcratebookstore", new Item(new FabricItemSettings()));
     public static final Item cntShippingCrateCarParts = registerItem("cntshippingcratecarparts", new Item(new FabricItemSettings()));
     public static final Item cntShippingCrateHero = registerItem("cntshippingcratehero", new Item(new FabricItemSettings()));
     public static final Item cntShippingCrateLabEquipment = registerItem("cntshippingcratelabequipment", new Item(new FabricItemSettings()));
