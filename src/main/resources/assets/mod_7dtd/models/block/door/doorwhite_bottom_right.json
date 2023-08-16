@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_right",
+  "textures": {
+    "bottom": "mod_7dtd:block/door/doorwhite_bottom",
+    "top": "mod_7dtd:block/door/doorwhite_top"
+  }
+}

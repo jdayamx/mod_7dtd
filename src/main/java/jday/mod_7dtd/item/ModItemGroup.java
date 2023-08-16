@@ -139,7 +139,6 @@ public class ModItemGroup {
                         entries.add(ModItems.breakerBoxWallOpen);
                         entries.add(ModItems.brickCTRQuarterBroken);
                         entries.add(ModItems.brickMaster);
-                        entries.add(ModItems.brickNoUpgradeMaster);
                         entries.add(ModItems.bricksStack);
                         entries.add(ModItems.bridgeConcreteBlock);
                         entries.add(ModItems.bridgeMetalRivetBlock);
@@ -172,10 +171,7 @@ public class ModItemGroup {
                         entries.add(ModItems.bundleVehicleMiniBike);
                         entries.add(ModItems.bundleVehicleMotorCycle);
                         entries.add(ModItems.bundleVehicleParts);
-                        entries.add(ModItems.bunkBedFrame);
                         entries.add(ModItems.bunkBedMade);
-                        entries.add(ModItems.bunkBedMattress);
-                        entries.add(ModItems.bunkBedMessy);
                         entries.add(ModItems.burningBarrelPlayer);
                         entries.add(ModItems.burningBarrel);
                         entries.add(ModItems.burntSedan01);
@@ -205,7 +201,6 @@ public class ModItemGroup {
                         entries.add(ModItems.casinoCoin);
                         entries.add(ModItems.ceilingFanLight);
                         entries.add(ModItems.ceilingLight02Brass);
-                        entries.add(ModItems.ceilingLight02);
                         entries.add(ModItems.ceilingLight04);
                         entries.add(ModItems.ceilingLight05Brass);
                         entries.add(ModItems.ceilingLight05);
@@ -746,9 +741,6 @@ public class ModItemGroup {
                         entries.add(ModItems.cntTiltTruckFullFlies);
                         entries.add(ModItems.cntTiltTruckFull);
                         entries.add(ModItems.cntToaster);
-                        entries.add(ModItems.cntToilet01);
-                        entries.add(ModItems.cntToilet02);
-                        entries.add(ModItems.cntToilet03);
                         entries.add(ModItems.cntToolBoxClosedWhite);
                         entries.add(ModItems.cntToolBoxOpenWhite);
                         entries.add(ModItems.cntTraderSuperChest);
@@ -786,7 +778,6 @@ public class ModItemGroup {
                         entries.add(ModItems.cntWasherIndustrialTipped);
                         entries.add(ModItems.cntWasherOpen);
                         entries.add(ModItems.cntWaterCoolerBottle);
-                        entries.add(ModItems.cntWaterCoolerFull);
                         entries.add(ModItems.cntWeaponsBagLarge);
                         entries.add(ModItems.cntWeaponsBagSmall);
                         entries.add(ModItems.cntWoodBurningStove);
@@ -863,7 +854,6 @@ public class ModItemGroup {
                         entries.add(ModItems.conduitSingleCentered);
                         entries.add(ModItems.conduitSingleCorner);
                         entries.add(ModItems.conduitSingleOffsetEnd);
-                        entries.add(ModItems.conduitSingleOffset);
                         entries.add(ModItems.conduitTriple90AngleEnd);
                         entries.add(ModItems.coneConstruction);
                         entries.add(ModItems.controlPanelBase01);
@@ -913,7 +903,6 @@ public class ModItemGroup {
                         entries.add(ModItems.counterHollowCabinetOpen);
                         entries.add(ModItems.counterHollowCabinetTaupeBroken);
                         entries.add(ModItems.counterHollowCabinetTaupeOpen);
-                        entries.add(ModItems.counterMountedSinkCommercial);
                         entries.add(ModItems.cropsHarvestableMaster);
                         entries.add(ModItems.crossHelper);
                         entries.add(ModItems.crushedCars01White);
@@ -1263,7 +1252,6 @@ public class ModItemGroup {
                         entries.add(ModItems.ironSpikesTrap1POI);
                         entries.add(ModItems.ironSpikesTrap2POI);
                         entries.add(ModItems.ironSpikesTrapBloodPOI);
-                        entries.add(ModItems.jailBarsWhite);
                         entries.add(ModItems.jailDoorDoubleFallenWhite);
                         entries.add(ModItems.jailDoorDoubleWhite);
                         entries.add(ModItems.jailDoorFallenWhite);
@@ -1393,12 +1381,8 @@ public class ModItemGroup {
                         entries.add(ModItems.metalPipeStack);
                         entries.add(ModItems.metalPipeStraight);
                         entries.add(ModItems.metalPipeValve);
-                        entries.add(ModItems.metalRailingCNR);
-                        entries.add(ModItems.metalRailingDiagonal);
-                        entries.add(ModItems.metalRailingDouble);
                         entries.add(ModItems.metalRailing);
                         entries.add(ModItems.metalReinforcedWoodDrawBridge);
-                        entries.add(ModItems.metalRivetSheet);
                         entries.add(ModItems.metalStairsBoard);
                         entries.add(ModItems.metalStairsBoardRailing);
                         entries.add(ModItems.metalStairsSpiralLeft);
@@ -1515,8 +1499,6 @@ public class ModItemGroup {
                         entries.add(ModItems.palletCartonMilitaryTileCovered);
                         entries.add(ModItems.palletCartonMilitaryTile);
                         entries.add(ModItems.palletCompressedCardboard);
-                        entries.add(ModItems.palletEmpty);
-                        entries.add(ModItems.palletEmptyStack);
                         entries.add(ModItems.palletTarpBaseWhite);
                         entries.add(ModItems.palletTarpTileWhite);
                         entries.add(ModItems.pantryDoorWhite);
@@ -1617,8 +1599,6 @@ public class ModItemGroup {
                         entries.add(ModItems.posterBlueprintPistol);
                         entries.add(ModItems.posterBlueprintRifle);
                         entries.add(ModItems.posterCalendarWorkingStiff);
-                        entries.add(ModItems.powerSwitch01);
-                        entries.add(ModItems.powerSwitch02);
                         entries.add(ModItems.pressureplateLong);
                         entries.add(ModItems.pressureplate);
                         entries.add(ModItems.projectorCeiling);
@@ -1761,8 +1741,6 @@ public class ModItemGroup {
                         entries.add(ModItems.shootingRangeTarget);
                         entries.add(ModItems.shotgunTurret);
                         entries.add(ModItems.showerHandle01);
-                        entries.add(ModItems.showerHead02);
-                        entries.add(ModItems.showerHead);
                         entries.add(ModItems.shutters1Plate);
                         entries.add(ModItems.shuttersIron01);
                         entries.add(ModItems.shuttersIron02);
@@ -2349,6 +2327,7 @@ public class ModItemGroup {
                     .icon(() -> new ItemStack(ModItems.M7DTD_BLOCK)).entries((displayContext, entries) -> {
                         entries.add(ModBlocks.baseWoodBlock);
                         entries.add(ModBlocks.bridgeWoodBlock);
+                        entries.add(ModBlocks.wood3h);
                         entries.add(ModBlocks.cobblestoneMaster);
                         entries.add(ModBlocks.concreteMaster);
                         entries.add(ModBlocks.steelMaster);
@@ -2365,6 +2344,44 @@ public class ModItemGroup {
                         entries.add(ModBlocks.cntShippingCrateShotgunMessiah);
                         entries.add(ModBlocks.cntShippingCrateWorkingStiffs);
                         entries.add(ModBlocks.cntCardboardBox);
+                        entries.add(ModBlocks.brickNoUpgradeMaster);
+                        entries.add(ModBlocks.jailBarsWhite);
+                        entries.add(ModBlocks.powerSwitch01);
+                        entries.add(ModBlocks.powerSwitch02);
+                        entries.add(ModBlocks.conduitSingleOffset);
+                        entries.add(ModBlocks.counterMountedSinkCommercial);
+
+                        entries.add(ModBlocks.metalRailingDiagonal);
+                        entries.add(ModBlocks.metalRailingCNR);
+                        entries.add(ModBlocks.metalRailingDouble);
+                        entries.add(ModBlocks.metalRivetSheet);
+
+                        entries.add(ModBlocks.palletEmpty);
+                        entries.add(ModBlocks.palletEmptyStack);
+                        // cooler
+                        entries.add(ModBlocks.cntWaterCoolerFull);
+                        //table
+                        entries.add(ModBlocks.table1);
+                        // glass
+                        entries.add(ModBlocks.glass1);
+                        // doors
+                        entries.add(ModBlocks.doorWhite);
+                        // light
+                        entries.add(ModBlocks.ceilingLight02);
+
+                        entries.add(ModBlocks.cntToilet01);
+                        entries.add(ModBlocks.cntToilet02);
+                        entries.add(ModBlocks.cntToilet03);
+                        entries.add(ModBlocks.showerHead02);
+                        entries.add(ModBlocks.showerHead);
+
+                        entries.add(ModBlocks.bunkBedFrame);
+                        entries.add(ModBlocks.bunkBedMattress);
+                        entries.add(ModBlocks.bunkBedMessy);
+
+                        entries.add(ModBlocks.testStairs);
+                        entries.add(ModBlocks.testWall);
+
                     }).build());
     public static final ItemGroup m7dtd_GROUP_WEAPON = Registry.register(Registries.ITEM_GROUP,
             new Identifier(Mod_7dtd.MOD_ID, "m7dtd_weapon"),

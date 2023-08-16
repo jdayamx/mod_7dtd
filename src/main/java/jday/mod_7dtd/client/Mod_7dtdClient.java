@@ -13,6 +13,14 @@ public class Mod_7dtdClient implements ClientModInitializer {
     public void onInitializeClient() {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.controlPanelTop07, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.TEST7DTD, RenderLayer.getCutout());
+
+        //BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.testStairs, RenderLayer.getCutout());
+        //BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.testStairs, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.testStairs, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.jailBarsWhite, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.glass1, RenderLayer.getTranslucent());
+
+
         // some code for client
         HudRenderCallback.EVENT.register(new HudOverlay());
         HudRenderCallback.EVENT.register(new IconsOverlay());

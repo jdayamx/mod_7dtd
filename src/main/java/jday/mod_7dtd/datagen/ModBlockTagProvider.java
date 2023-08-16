@@ -35,6 +35,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.concreteMaster)
                 .add(ModBlocks.controlPanelBase08)
                 .add(ModBlocks.controlPanelTop07);
+
+        getOrCreateTagBuilder(BlockTags.WALLS)
+                .add(ModBlocks.testWall);
         /*
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.RUBY_BLOCK);

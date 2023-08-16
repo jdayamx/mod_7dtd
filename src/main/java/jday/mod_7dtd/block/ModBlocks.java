@@ -1,14 +1,11 @@
 package jday.mod_7dtd.block;
 
 import jday.mod_7dtd.Mod_7dtd;
-import jday.mod_7dtd.block.custom.Container;
-import jday.mod_7dtd.block.custom.TestBlock;
-import jday.mod_7dtd.block.custom.UpdateOnUse;
+import jday.mod_7dtd.block.custom.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -29,6 +26,79 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).hardness(20f)));
     public static final Block cobblestoneMaster = registerBlock("cobblestonemaster",
             new UpdateOnUse(FabricBlockSettings.copyOf(Blocks.STONE).hardness(64f).strength(20f)));
+    public static final Block brickNoUpgradeMaster = registerBlock("bricknoupgrademaster",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE).hardness(64f).strength(20f)));
+
+    public static final Block testStairs = registerBlock("teststairs",
+            new StairsBlock(Blocks.STONE_STAIRS.getDefaultState(), FabricBlockSettings.copyOf(Blocks.FLOWER_POT).hardness(64f).strength(20f)));
+
+    public static final Block testWall = registerBlock("testwall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+
+    public static final Block jailBarsWhite = registerBlock("jailbarswhite",
+            new BlockX2H(FabricBlockSettings.copyOf(Blocks.ACACIA_DOOR).hardness(64f).strength(20f)));
+
+    public static final Block powerSwitch01 = registerBlock("powersswitch01",
+            new BlockX1H3(FabricBlockSettings.copyOf(Blocks.ACACIA_BUTTON)));
+    public static final Block powerSwitch02 = registerBlock("powersswitch02",
+            new BlockX1H3(FabricBlockSettings.copyOf(Blocks.ACACIA_BUTTON)));
+    public static final Block conduitSingleOffset = registerBlock("conduitsingleoffset",
+            new BlockX1H3(FabricBlockSettings.copyOf(Blocks.ACACIA_BUTTON)));
+    public static final Block counterMountedSinkCommercial = registerBlock("countermountedsinkcommercial",
+            new BlockX1(FabricBlockSettings.copyOf(Blocks.CAULDRON)));
+    public static final Block metalRailingDouble = registerBlock("metalrailingdouble",
+            new BlockX1(FabricBlockSettings.copyOf(Blocks.ACACIA_BUTTON)));
+    public static final Block metalRailingDiagonal = registerBlock("metalrailingdiagonal",
+            new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+
+    public static final Block metalRailingCNR = registerBlock("metalrailingcnr",
+            new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block metalRivetSheet = registerBlock("metalrivetsheet",
+            new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block palletEmpty = registerBlock("palletempty",
+            new BlockX1W3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block palletEmptyStack = registerBlock("palletemptystack",
+            new BlockX1(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+
+    public static final Block wood3h = registerBlock("wood3h",
+            new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block glass1 = registerBlock("glass1",
+            new BlockX1H3(FabricBlockSettings.copyOf(Blocks.GLASS)));
+    public static final Block table1 = registerBlock("table1",
+            new BlockX2W(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+
+    public static final Block cntToilet01 = registerBlock("cnttoilet01",
+            new BlockX1(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block cntToilet02 = registerBlock("cnttoilet02",
+            new BlockX1(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block cntToilet03 = registerBlock("cnttoilet03",
+            new BlockX1(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+
+    public static final Block showerHead = registerBlock("showerhead",
+            new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block showerHead02 = registerBlock("showerhead02",
+            new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+
+    // light
+    public static final Block ceilingLight02 = registerBlock("ceilinglight02",
+            new BlockX1H3(FabricBlockSettings.copyOf(Blocks.STONE_BUTTON).lightLevel(8)));
+
+    public static final Block bunkBedFrame = registerBlock("bunkbedframe",
+            new BlockX2W(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block bunkBedMattress = registerBlock("bunkbedmattress",
+            new BlockX2W(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block bunkBedMessy = registerBlock("bunkbedmessy",
+            new BlockX2W(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+
+    //public static final Item bunkBedFrame = registerItem("bunkbedframe", new Item(new FabricItemSettings()));
+    //public static final Item bunkBedMattress = registerItem("bunkbedmattress", new Item(new FabricItemSettings()));
+    //public static final Item bunkBedMessy = registerItem("bunkbedmessy", new Item(new FabricItemSettings()));
+
+    public static final Block cntWaterCoolerFull = registerBlock("cntwatercoolerfull",
+            new BlockX2H(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    //public static final Item cntWaterCoolerFull = registerItem("cntwatercoolerfull", new Item(new FabricItemSettings()));
+
+    //public static final Item brickNoUpgradeMaster = registerItem("bricknoupgrademaster", new Item(new FabricItemSettings()));
     public static final Block concreteMaster = registerBlock("concretemaster",
             new UpdateOnUse(FabricBlockSettings.copyOf(Blocks.OBSIDIAN).hardness(128f).strength(30f)));
     public static final Block steelMaster = registerBlock("steelmaster",
@@ -54,6 +124,10 @@ public class ModBlocks {
             new Container(FabricBlockSettings.copyOf(Blocks.BARREL)), 600);
     public static final Block cntCardboardBox = registerContainerBlock("cntcardboardbox",
             new Container(FabricBlockSettings.copyOf(Blocks.BARREL)), 200);
+
+    // doors
+    public static final Block doorWhite = registerBlock("doorwhite",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.BAMBOO_DOOR).nonOpaque(), BlockSetType.BAMBOO));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

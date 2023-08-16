@@ -305,7 +305,7 @@ public class ModItems {
     public static final Item breakerBoxWallOpen = registerItem("breakerboxwallopen", new Item(new FabricItemSettings()));
     public static final Item brickCTRQuarterBroken = registerItem("brickctrquarterbroken", new Item(new FabricItemSettings()));
     public static final Item brickMaster = registerItem("brickmaster", new Item(new FabricItemSettings()));
-    public static final Item brickNoUpgradeMaster = registerItem("bricknoupgrademaster", new Item(new FabricItemSettings()));
+    //public static final Item brickNoUpgradeMaster = registerItem("bricknoupgrademaster", new Item(new FabricItemSettings()));
     public static final Item bricksStack = registerItem("bricksstack", new Item(new FabricItemSettings()));
     public static final Item bridgeConcreteBlock = registerItem("bridgeconcreteblock", new Item(new FabricItemSettings()));
     public static final Item bridgeMetalRivetBlock = registerItem("bridgemetalrivetblock", new Item(new FabricItemSettings()));
@@ -339,10 +339,7 @@ public class ModItems {
     public static final Item bundleVehicleMiniBike = registerItem("bundlevehicleminibike", new Item(new FabricItemSettings()));
     public static final Item bundleVehicleMotorCycle = registerItem("bundlevehiclemotorcycle", new Item(new FabricItemSettings()));
     public static final Item bundleVehicleParts = registerItem("bundlevehicleparts", new Item(new FabricItemSettings()));
-    public static final Item bunkBedFrame = registerItem("bunkbedframe", new Item(new FabricItemSettings()));
     public static final Item bunkBedMade = registerItem("bunkbedmade", new Item(new FabricItemSettings()));
-    public static final Item bunkBedMattress = registerItem("bunkbedmattress", new Item(new FabricItemSettings()));
-    public static final Item bunkBedMessy = registerItem("bunkbedmessy", new Item(new FabricItemSettings()));
     public static final Item burningBarrelPlayer = registerItem("burningbarrelplayer", new Item(new FabricItemSettings()));
     public static final Item burningBarrel = registerItem("burningbarrel", new Item(new FabricItemSettings()));
     public static final Item burntSedan01 = registerItem("burntsedan01", new Item(new FabricItemSettings()));
@@ -372,7 +369,6 @@ public class ModItems {
     public static final Item casinoCoin = registerItem("casinocoin", new Item(new FabricItemSettings()));
     public static final Item ceilingFanLight = registerItem("ceilingfanlight", new Item(new FabricItemSettings()));
     public static final Item ceilingLight02Brass = registerItem("ceilinglight02brass", new Item(new FabricItemSettings()));
-    public static final Item ceilingLight02 = registerItem("ceilinglight02", new Item(new FabricItemSettings()));
     public static final Item ceilingLight04 = registerItem("ceilinglight04", new Item(new FabricItemSettings()));
     public static final Item ceilingLight05Brass = registerItem("ceilinglight05brass", new Item(new FabricItemSettings()));
     public static final Item ceilingLight05 = registerItem("ceilinglight05", new Item(new FabricItemSettings()));
@@ -913,9 +909,6 @@ public class ModItems {
     public static final Item cntTiltTruckFullFlies = registerItem("cnttilttruckfullflies", new Item(new FabricItemSettings()));
     public static final Item cntTiltTruckFull = registerItem("cnttilttruckfull", new Item(new FabricItemSettings()));
     public static final Item cntToaster = registerItem("cnttoaster", new Item(new FabricItemSettings()));
-    public static final Item cntToilet01 = registerItem("cnttoilet01", new Item(new FabricItemSettings()));
-    public static final Item cntToilet02 = registerItem("cnttoilet02", new Item(new FabricItemSettings()));
-    public static final Item cntToilet03 = registerItem("cnttoilet03", new Item(new FabricItemSettings()));
     public static final Item cntToolBoxClosedWhite = registerItem("cnttoolboxclosedwhite", new Item(new FabricItemSettings()));
     public static final Item cntToolBoxOpenWhite = registerItem("cnttoolboxopenwhite", new Item(new FabricItemSettings()));
     public static final Item cntTraderSuperChest = registerItem("cnttradersuperchest", new Item(new FabricItemSettings()));
@@ -953,7 +946,6 @@ public class ModItems {
     public static final Item cntWasherIndustrialTipped = registerItem("cntwasherindustrialtipped", new Item(new FabricItemSettings()));
     public static final Item cntWasherOpen = registerItem("cntwasheropen", new Item(new FabricItemSettings()));
     public static final Item cntWaterCoolerBottle = registerItem("cntwatercoolerbottle", new Item(new FabricItemSettings()));
-    public static final Item cntWaterCoolerFull = registerItem("cntwatercoolerfull", new Item(new FabricItemSettings()));
     public static final Item cntWeaponsBagLarge = registerItem("cntweaponsbaglarge", new Item(new FabricItemSettings()));
     public static final Item cntWeaponsBagSmall = registerItem("cntweaponsbagsmall", new Item(new FabricItemSettings()));
     public static final Item cntWoodBurningStove = registerItem("cntwoodburningstove", new Item(new FabricItemSettings()));
@@ -1032,7 +1024,7 @@ public class ModItems {
     public static final Item conduitSingleCentered = registerItem("conduitsinglecentered", new Item(new FabricItemSettings()));
     public static final Item conduitSingleCorner = registerItem("conduitsinglecorner", new Item(new FabricItemSettings()));
     public static final Item conduitSingleOffsetEnd = registerItem("conduitsingleoffsetend", new Item(new FabricItemSettings()));
-    public static final Item conduitSingleOffset = registerItem("conduitsingleoffset", new Item(new FabricItemSettings()));
+    //public static final Item conduitSingleOffset = registerItem("conduitsingleoffset", new Item(new FabricItemSettings()));
     public static final Item conduitTriple90AngleEnd = registerItem("conduittriple90angleend", new Item(new FabricItemSettings()));
     public static final Item coneConstruction = registerItem("coneconstruction", new Item(new FabricItemSettings()));
     public static final Item controlPanelBase01 = registerItem("controlpanelbase01", new Item(new FabricItemSettings()));
@@ -1084,7 +1076,7 @@ public class ModItems {
     public static final Item counterHollowCabinetOpen = registerItem("counterhollowcabinetopen", new Item(new FabricItemSettings()));
     public static final Item counterHollowCabinetTaupeBroken = registerItem("counterhollowcabinettaupebroken", new Item(new FabricItemSettings()));
     public static final Item counterHollowCabinetTaupeOpen = registerItem("counterhollowcabinettaupeopen", new Item(new FabricItemSettings()));
-    public static final Item counterMountedSinkCommercial = registerItem("countermountedsinkcommercial", new Item(new FabricItemSettings()));
+    //public static final Item counterMountedSinkCommercial = registerItem("countermountedsinkcommercial", new Item(new FabricItemSettings()));
     public static final Item cropsHarvestableMaster = registerItem("cropsharvestablemaster", new Item(new FabricItemSettings()));
     public static final Item crossHelper = registerItem("crosshelper", new Item(new FabricItemSettings()));
     public static final Item crushedCars01White = registerItem("crushedcars01white", new Item(new FabricItemSettings()));
@@ -1534,7 +1526,7 @@ public class ModItems {
     public static final Item ironSpikesTrap1POI = registerItem("ironspikestrap1poi", new Item(new FabricItemSettings()));
     public static final Item ironSpikesTrap2POI = registerItem("ironspikestrap2poi", new Item(new FabricItemSettings()));
     public static final Item ironSpikesTrapBloodPOI = registerItem("ironspikestrapbloodpoi", new Item(new FabricItemSettings()));
-    public static final Item jailBarsWhite = registerItem("jailbarswhite", new Item(new FabricItemSettings()));
+    //public static final Item jailBarsWhite = registerItem("jailbarswhite", new Item(new FabricItemSettings()));
     public static final Item jailDoorDoubleFallenWhite = registerItem("jaildoordoublefallenwhite", new Item(new FabricItemSettings()));
     public static final Item jailDoorDoubleWhite = registerItem("jaildoordoublewhite", new Item(new FabricItemSettings()));
     public static final Item jailDoorFallenWhite = registerItem("jaildoorfallenwhite", new Item(new FabricItemSettings()));
@@ -1683,12 +1675,12 @@ public class ModItems {
     public static final Item metalPipeStack = registerItem("metalpipestack", new Item(new FabricItemSettings()));
     public static final Item metalPipeStraight = registerItem("metalpipestraight", new Item(new FabricItemSettings()));
     public static final Item metalPipeValve = registerItem("metalpipevalve", new Item(new FabricItemSettings()));
-    public static final Item metalRailingCNR = registerItem("metalrailingcnr", new Item(new FabricItemSettings()));
-    public static final Item metalRailingDiagonal = registerItem("metalrailingdiagonal", new Item(new FabricItemSettings()));
-    public static final Item metalRailingDouble = registerItem("metalrailingdouble", new Item(new FabricItemSettings()));
+    //public static final Item metalRailingCNR = registerItem("metalrailingcnr", new Item(new FabricItemSettings()));
+    //public static final Item metalRailingDiagonal = registerItem("metalrailingdiagonal", new Item(new FabricItemSettings()));
+    //public static final Item metalRailingDouble = registerItem("metalrailingdouble", new Item(new FabricItemSettings()));
     public static final Item metalRailing = registerItem("metalrailing", new Item(new FabricItemSettings()));
     public static final Item metalReinforcedWoodDrawBridge = registerItem("metalreinforcedwooddrawbridge", new Item(new FabricItemSettings()));
-    public static final Item metalRivetSheet = registerItem("metalrivetsheet", new Item(new FabricItemSettings()));
+    //public static final Item metalRivetSheet = registerItem("metalrivetsheet", new Item(new FabricItemSettings()));
     public static final Item metalStairsBoard = registerItem("metalstairsboard", new Item(new FabricItemSettings()));
     public static final Item metalStairsBoardRailing = registerItem("metalstairsboardrailing", new Item(new FabricItemSettings()));
     public static final Item metalStairsSpiralLeft = registerItem("metalstairsspiralleft", new Item(new FabricItemSettings()));
@@ -1885,8 +1877,6 @@ public class ModItems {
     public static final Item palletCartonMilitaryTileCovered = registerItem("palletcartonmilitarytilecovered", new Item(new FabricItemSettings()));
     public static final Item palletCartonMilitaryTile = registerItem("palletcartonmilitarytile", new Item(new FabricItemSettings()));
     public static final Item palletCompressedCardboard = registerItem("palletcompressedcardboard", new Item(new FabricItemSettings()));
-    public static final Item palletEmpty = registerItem("palletempty", new Item(new FabricItemSettings()));
-    public static final Item palletEmptyStack = registerItem("palletemptystack", new Item(new FabricItemSettings()));
     public static final Item palletTarpBaseWhite = registerItem("pallettarpbasewhite", new Item(new FabricItemSettings()));
     public static final Item palletTarpTileWhite = registerItem("pallettarptilewhite", new Item(new FabricItemSettings()));
     public static final Item pantryDoorWhite = registerItem("pantrydoorwhite", new Item(new FabricItemSettings()));
@@ -2036,8 +2026,8 @@ public class ModItems {
     public static final Item posterBlueprintPistol = registerItem("posterblueprintpistol", new Item(new FabricItemSettings()));
     public static final Item posterBlueprintRifle = registerItem("posterblueprintrifle", new Item(new FabricItemSettings()));
     public static final Item posterCalendarWorkingStiff = registerItem("postercalendarworkingstiff", new Item(new FabricItemSettings()));
-    public static final Item powerSwitch01 = registerItem("powerswitch01", new Item(new FabricItemSettings()));
-    public static final Item powerSwitch02 = registerItem("powerswitch02", new Item(new FabricItemSettings()));
+    //public static final Item powerSwitch01 = registerItem("powerswitch01", new Item(new FabricItemSettings()));
+    //public static final Item powerSwitch02 = registerItem("powerswitch02", new Item(new FabricItemSettings()));
     public static final Item pressureplateLong = registerItem("pressureplatelong", new Item(new FabricItemSettings()));
     public static final Item pressureplate = registerItem("pressureplate", new Item(new FabricItemSettings()));
     public static final Item projectorCeiling = registerItem("projectorceiling", new Item(new FabricItemSettings()));
@@ -2242,8 +2232,8 @@ public class ModItems {
     public static final Item shootingRangeTarget = registerItem("shootingrangetarget", new Item(new FabricItemSettings()));
     public static final Item shotgunTurret = registerItem("shotgunturret", new Item(new FabricItemSettings()));
     public static final Item showerHandle01 = registerItem("showerhandle01", new Item(new FabricItemSettings()));
-    public static final Item showerHead02 = registerItem("showerhead02", new Item(new FabricItemSettings()));
-    public static final Item showerHead = registerItem("showerhead", new Item(new FabricItemSettings()));
+    //public static final Item showerHead02 = registerItem("showerhead02", new Item(new FabricItemSettings()));
+    //public static final Item showerHead = registerItem("showerhead", new Item(new FabricItemSettings()));
     public static final Item shutters1Plate = registerItem("shutters1plate", new Item(new FabricItemSettings()));
     public static final Item shuttersIron01 = registerItem("shuttersiron01", new Item(new FabricItemSettings()));
     public static final Item shuttersIron02 = registerItem("shuttersiron02", new Item(new FabricItemSettings()));
