@@ -543,7 +543,6 @@ public class ModItems {
     public static final Item cntCar03SedanDamage0Master = registerItem("cntcar03sedandamage0master", new Item(new FabricItemSettings()));
     public static final Item cntCar03SedanDamage1Master = registerItem("cntcar03sedandamage1master", new Item(new FabricItemSettings()));
     public static final Item cntCar03SedanDamage2Master = registerItem("cntcar03sedandamage2master", new Item(new FabricItemSettings()));
-    public static final Item cntCardboardBox = registerItem("cntcardboardbox", new Item(new FabricItemSettings()));
     public static final Item cntCashRegisterEmpty = registerItem("cntcashregisterempty", new Item(new FabricItemSettings()));
     public static final Item cntCashRegister = registerItem("cntcashregister", new Item(new FabricItemSettings()));
     public static final Item cntCasketModernClosedWhiteOffset = registerItem("cntcasketmodernclosedwhiteoffset", new Item(new FabricItemSettings()));
@@ -808,15 +807,6 @@ public class ModItems {
     public static final Item cntShelvesMetalFullA = registerItem("cntshelvesmetalfulla", new Item(new FabricItemSettings()));
     public static final Item cntShelvesWoodEmpty = registerItem("cntshelveswoodempty", new Item(new FabricItemSettings()));
     public static final Item cntShelvesWoodFullA = registerItem("cntshelveswoodfulla", new Item(new FabricItemSettings()));
-    //public static final Item cntShippingCrateBookstore = registerItem("cntshippingcratebookstore", new Item(new FabricItemSettings()));
-    public static final Item cntShippingCrateCarParts = registerItem("cntshippingcratecarparts", new Item(new FabricItemSettings()));
-    public static final Item cntShippingCrateHero = registerItem("cntshippingcratehero", new Item(new FabricItemSettings()));
-    public static final Item cntShippingCrateLabEquipment = registerItem("cntshippingcratelabequipment", new Item(new FabricItemSettings()));
-    public static final Item cntShippingCrateMoPowerElectronics = registerItem("cntshippingcratemopowerelectronics", new Item(new FabricItemSettings()));
-    public static final Item cntShippingCrateSavageCountry = registerItem("cntshippingcratesavagecountry", new Item(new FabricItemSettings()));
-    public static final Item cntShippingCrateShamway = registerItem("cntshippingcrateshamway", new Item(new FabricItemSettings()));
-    public static final Item cntShippingCrateShotgunMessiah = registerItem("cntshippingcrateshotgunmessiah", new Item(new FabricItemSettings()));
-    public static final Item cntShippingCrateWorkingStiffs = registerItem("cntshippingcrateworkingstiffs", new Item(new FabricItemSettings()));
     public static final Item cntShoesPileBusinessShoes = registerItem("cntshoespilebusinessshoes", new Item(new FabricItemSettings()));
     public static final Item cntShoesPileCommercial01 = registerItem("cntshoespilecommercial01", new Item(new FabricItemSettings()));
     public static final Item cntShoesPileCommercial02 = registerItem("cntshoespilecommercial02", new Item(new FabricItemSettings()));

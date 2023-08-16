@@ -376,7 +376,6 @@ public class ModItemGroup {
                         entries.add(ModItems.cntCar03SedanDamage0Master);
                         entries.add(ModItems.cntCar03SedanDamage1Master);
                         entries.add(ModItems.cntCar03SedanDamage2Master);
-                        entries.add(ModItems.cntCardboardBox);
                         entries.add(ModItems.cntCashRegisterEmpty);
                         entries.add(ModItems.cntCashRegister);
                         entries.add(ModItems.cntCasketModernClosedWhiteOffset);
@@ -641,14 +640,6 @@ public class ModItemGroup {
                         entries.add(ModItems.cntShelvesMetalFullA);
                         entries.add(ModItems.cntShelvesWoodEmpty);
                         entries.add(ModItems.cntShelvesWoodFullA);
-                        entries.add(ModItems.cntShippingCrateCarParts);
-                        entries.add(ModItems.cntShippingCrateHero);
-                        entries.add(ModItems.cntShippingCrateLabEquipment);
-                        entries.add(ModItems.cntShippingCrateMoPowerElectronics);
-                        entries.add(ModItems.cntShippingCrateSavageCountry);
-                        entries.add(ModItems.cntShippingCrateShamway);
-                        entries.add(ModItems.cntShippingCrateShotgunMessiah);
-                        entries.add(ModItems.cntShippingCrateWorkingStiffs);
                         entries.add(ModItems.cntShoesPileBusinessShoes);
                         entries.add(ModItems.cntShoesPileCommercial01);
                         entries.add(ModItems.cntShoesPileCommercial02);
@@ -2365,6 +2356,15 @@ public class ModItemGroup {
                         entries.add(ModBlocks.controlPanelTop07);
                         entries.add(ModBlocks.TEST7DTD);
                         entries.add(ModBlocks.cntShippingCrateBookstore);
+                        entries.add(ModBlocks.cntShippingCrateCarParts);
+                        entries.add(ModBlocks.cntShippingCrateHero);
+                        entries.add(ModBlocks.cntShippingCrateLabEquipment);
+                        entries.add(ModBlocks.cntShippingCrateMoPowerElectronics);
+                        entries.add(ModBlocks.cntShippingCrateSavageCountry);
+                        entries.add(ModBlocks.cntShippingCrateShamway);
+                        entries.add(ModBlocks.cntShippingCrateShotgunMessiah);
+                        entries.add(ModBlocks.cntShippingCrateWorkingStiffs);
+                        entries.add(ModBlocks.cntCardboardBox);
                     }).build());
     public static final ItemGroup m7dtd_GROUP_WEAPON = Registry.register(Registries.ITEM_GROUP,
             new Identifier(Mod_7dtd.MOD_ID, "m7dtd_weapon"),

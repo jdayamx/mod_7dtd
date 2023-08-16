@@ -15,6 +15,8 @@ public class Mod_7dtdClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.TEST7DTD, RenderLayer.getCutout());
         // some code for client
         HudRenderCallback.EVENT.register(new HudOverlay());
+        HudRenderCallback.EVENT.register(new IconsOverlay());
+        HudRenderCallback.EVENT.register(new DaysOverlay());
         KeyInputHandler.register();
     }
 }

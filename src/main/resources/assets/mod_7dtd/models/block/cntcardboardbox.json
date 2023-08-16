@@ -1,0 +1,16 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "mod_7dtd:block/box_up",
+    "south": "mod_7dtd:block/box_back",
+    "north": "mod_7dtd:block/box_front",
+    "up": "mod_7dtd:block/box_up",
+    "up,open=true": "mod_7dtd:block/box_up",
+    "up,open=false": "mod_7dtd:block/box_up",
+    "down": "mod_7dtd:block/box_down",
+    "down,open=true": "mod_7dtd:block/box_down",
+    "down,open=false": "mod_7dtd:block/box_down",
+    "east": "mod_7dtd:block/box_left",
+    "west": "mod_7dtd:block/box_right"
+  }
+}

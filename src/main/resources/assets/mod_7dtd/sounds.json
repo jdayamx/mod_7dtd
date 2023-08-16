@@ -1,0 +1,10 @@
+{
+  "red_moon_start": {
+    "sounds": [
+      {
+        "name": "mod_7dtd:red_moon_start",
+        "stream": true
+      }
+    ]
+  }
+}

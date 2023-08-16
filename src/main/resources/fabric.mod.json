@@ -22,6 +22,9 @@
       "jday.mod_7dtd.ModDataGenerator"
     ]
   },
+  "mixins": [
+    "mod_7dtd.mixins.json"
+  ],
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric": "*",

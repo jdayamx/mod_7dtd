@@ -35,8 +35,25 @@ public class ModBlocks {
             new UpdateOnUse(FabricBlockSettings.copyOf(Blocks.OBSIDIAN).hardness(256f).strength(40f)));
 
     public static final Block cntShippingCrateBookstore = registerContainerBlock("cntshippingcratebookstore",
-            new Container(FabricBlockSettings.copyOf(Blocks.BARREL).hardness(256f).strength(40f)), 600);
-    //public static final Item cntShippingCrateBookstore = registerItem("cntshippingcratebookstore", new Item(new FabricItemSettings()));
+            new Container(FabricBlockSettings.copyOf(Blocks.BARREL)), 600);
+    public static final Block cntShippingCrateCarParts = registerContainerBlock("cntshippingcratecarparts",
+            new Container(FabricBlockSettings.copyOf(Blocks.BARREL)), 600);
+    public static final Block cntShippingCrateHero = registerContainerBlock("cntshippingcratehero",
+            new Container(FabricBlockSettings.copyOf(Blocks.BARREL)), 600);
+    public static final Block cntShippingCrateLabEquipment = registerContainerBlock("cntshippingcratelabequipment",
+            new Container(FabricBlockSettings.copyOf(Blocks.BARREL)), 600);
+    public static final Block cntShippingCrateMoPowerElectronics = registerContainerBlock("cntshippingcratemopowerelectronics",
+            new Container(FabricBlockSettings.copyOf(Blocks.BARREL)), 600);
+    public static final Block cntShippingCrateSavageCountry = registerContainerBlock("cntshippingcratesavagecountry",
+            new Container(FabricBlockSettings.copyOf(Blocks.BARREL)), 600);
+    public static final Block cntShippingCrateShamway = registerContainerBlock("cntshippingcrateshamway",
+            new Container(FabricBlockSettings.copyOf(Blocks.BARREL)), 600);
+    public static final Block cntShippingCrateShotgunMessiah = registerContainerBlock("cntshippingcrateshotgunmessiah",
+            new Container(FabricBlockSettings.copyOf(Blocks.BARREL)), 600);
+    public static final Block cntShippingCrateWorkingStiffs = registerContainerBlock("cntshippingcrateworkingstiffs",
+            new Container(FabricBlockSettings.copyOf(Blocks.BARREL)), 600);
+    public static final Block cntCardboardBox = registerContainerBlock("cntcardboardbox",
+            new Container(FabricBlockSettings.copyOf(Blocks.BARREL)), 200);
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
