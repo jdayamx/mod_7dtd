@@ -52,7 +52,7 @@ public class ModBlocks {
             new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
 
     public static final Block metalRailingCNR = registerBlock("metalrailingcnr",
-            new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+            new BlockX1H3a(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
     public static final Block metalRivetSheet = registerBlock("metalrivetsheet",
             new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
     public static final Block palletEmpty = registerBlock("palletempty",
@@ -124,6 +124,63 @@ public class ModBlocks {
             new Container(FabricBlockSettings.copyOf(Blocks.BARREL)), 600);
     public static final Block cntCardboardBox = registerContainerBlock("cntcardboardbox",
             new Container(FabricBlockSettings.copyOf(Blocks.BARREL)), 200);
+
+    public static final Block chainlinkFenceBottomPlainCorner = registerBlock("chainlinkfencebottomplaincorner",
+            new BlockX1H3a(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block chainlinkFenceBottomPlain = registerBlock("chainlinkfencebottomplain",
+            new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block chainlinkFenceBottomPlainPoleLeft = registerBlock("chainlinkfencebottomplainpoleleft",
+            new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block chainlinkFenceBottomPlainPoleRight = registerBlock("chainlinkfencebottomplainpoleright",
+            new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block chainlinkFenceBottomRail = registerBlock("chainlinkfencebottomrail",
+            new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block chainlinkFenceBottomRailPoleCorner = registerBlock("chainlinkfencebottomrailpolecorner",
+            new BlockX1H3a(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block chainlinkFenceBottomRailPoleLeft = registerBlock("chainlinkfencebottomrailpoleleft",
+            new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block chainlinkFenceBottomRailPoleRight = registerBlock("chainlinkfencebottomrailpoleright",
+            new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block chainlinkFenceDoorDouble = registerBlock("chainlinkfencedoordouble",
+            new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block chainlinkFenceDoor = registerBlock("chainlinkfencedoor",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.BAMBOO_DOOR).nonOpaque(), BlockSetType.BAMBOO));
+    public static final Block chainlinkFenceMiddleRail = registerBlock("chainlinkfencemiddlerail",
+            new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block chainlinkFenceMiddleRailPoleCorner = registerBlock("chainlinkfencemiddlerailpolecorner",
+            new BlockX1H3a(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block chainlinkFenceMiddleRailPoleLeft = registerBlock("chainlinkfencemiddlerailpoleleft",
+            new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block chainlinkFenceMiddleRailPoleRight = registerBlock("chainlinkfencemiddlerailpoleright",
+            new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block chainlinkFencePole02 = registerBlock("chainlinkfencepole02",
+            new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block chainlinkFencePole03 = registerBlock("chainlinkfencepole03",
+            new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block chainlinkFencePole = registerBlock("chainlinkfencepole",
+            new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block chainlinkFenceTopPlainCorner = registerBlock("chainlinkfencetopplaincorner",
+            new BlockX1H3a(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block chainlinkFenceTopPlainPoleLeft = registerBlock("chainlinkfencetopplainpoleleft",
+            new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block chainlinkFenceTopPlainPoleRight = registerBlock("chainlinkfencetopplainpoleright",
+            new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block chainlinkFenceTopPlainRail = registerBlock("chainlinkfencetopplainrail",
+            new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block chainlinkFenceTopRailBridge = registerBlock("chainlinkfencetoprailbridge",
+            new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block chainlinkFenceTopRailCorner = registerBlock("chainlinkfencetoprailcorner",
+            new BlockX1H3a(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block chainlinkFenceTopRail = registerBlock("chainlinkfencetoprail",
+            new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block chainlinkFenceTopRailPoleLeft = registerBlock("chainlinkfencetoprailpoleleft",
+            new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block chainlinkFenceTopRailPoleRight = registerBlock("chainlinkfencetoprailpoleright",
+            new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block chainlinkGateDouble = registerBlock("chainlinkgatedouble",
+            new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block chainlinkGateDoubleWide = registerBlock("chainlinkgatedoublewide",
+            new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
 
     // doors
     public static final Block doorWhite = registerBlock("doorwhite",

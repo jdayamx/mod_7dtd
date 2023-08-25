@@ -1,0 +1,39 @@
+{
+	"variants": {
+		"facing=north,half=lower,hinge=right,open=false": { "model": "mod_7dtd:block/chainlinkfencedoor" },
+		"facing=north,half=upper,hinge=right,open=false":  { "model": "mod_7dtd:block/empty" },
+		"facing=north,half=lower,hinge=right,open=true": { "model": "mod_7dtd:block/chainlinkfencedoor_mr", "y": -90},
+		"facing=north,half=upper,hinge=right,open=true":  { "model": "mod_7dtd:block/empty" },
+		"facing=north,half=lower,hinge=left,open=false": { "model": "mod_7dtd:block/chainlinkfencedoor_mr" },
+		"facing=north,half=upper,hinge=left,open=false":  { "model": "mod_7dtd:block/empty" },
+		"facing=north,half=lower,hinge=left,open=true": { "model": "mod_7dtd:block/chainlinkfencedoor_f_mr", "y": -90},
+		"facing=north,half=upper,hinge=left,open=true":  { "model": "mod_7dtd:block/empty" },
+
+		"facing=south,half=lower,hinge=right,open=false": { "model": "mod_7dtd:block/chainlinkfencedoor", "y": 180 },
+		"facing=south,half=upper,hinge=right,open=false":  { "model": "mod_7dtd:block/empty" },
+		"facing=south,half=lower,hinge=right,open=true": { "model": "mod_7dtd:block/chainlinkfencedoor_mr", "y": 90 },
+		"facing=south,half=upper,hinge=right,open=true":  { "model": "mod_7dtd:block/empty" },
+		"facing=south,half=lower,hinge=left,open=false": { "model": "mod_7dtd:block/chainlinkfencedoor_mr", "y": 180 },
+		"facing=south,half=upper,hinge=left,open=false":  { "model": "mod_7dtd:block/empty" },
+		"facing=south,half=lower,hinge=left,open=true": { "model": "mod_7dtd:block/chainlinkfencedoor", "y": 270 },
+		"facing=south,half=upper,hinge=left,open=true":  { "model": "mod_7dtd:block/empty" },
+
+		"facing=west,half=lower,hinge=right,open=false":  { "model": "mod_7dtd:block/chainlinkfencedoor", "y": 270 },
+		"facing=west,half=upper,hinge=right,open=false":  { "model": "mod_7dtd:block/empty" },
+		"facing=west,half=lower,hinge=right,open=true":  { "model": "mod_7dtd:block/chainlinkfencedoor_mr", "y": 180 },
+		"facing=west,half=upper,hinge=right,open=true":  { "model": "mod_7dtd:block/empty" },
+		"facing=west,half=lower,hinge=left,open=false":  { "model": "mod_7dtd:block/chainlinkfencedoor_mr", "y": 270 },
+		"facing=west,half=upper,hinge=left,open=false":  { "model": "mod_7dtd:block/empty" },
+		"facing=west,half=lower,hinge=left,open=true":  { "model": "mod_7dtd:block/chainlinkfencedoor" },
+		"facing=west,half=upper,hinge=left,open=true":  { "model": "mod_7dtd:block/empty" },
+
+		"facing=east,half=lower,hinge=right,open=false":  { "model": "mod_7dtd:block/chainlinkfencedoor", "y": 90 },
+		"facing=east,half=lower,hinge=right,open=true":  { "model": "mod_7dtd:block/chainlinkfencedoor_mr" },
+		"facing=east,half=upper,hinge=right,open=false":  { "model": "mod_7dtd:block/empty"},
+		"facing=east,half=upper,hinge=right,open=true":  { "model": "mod_7dtd:block/empty"},
+		"facing=east,half=lower,hinge=left,open=false":  { "model": "mod_7dtd:block/chainlinkfencedoor_mr", "y": 90 },
+		"facing=east,half=lower,hinge=left,open=true":  { "model": "mod_7dtd:block/chainlinkfencedoor_f_mr" },
+		"facing=east,half=upper,hinge=left,open=false":  { "model": "mod_7dtd:block/empty" },
+		"facing=east,half=upper,hinge=left,open=true":  { "model": "mod_7dtd:block/empty" }
+	}
+}
