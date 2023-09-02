@@ -208,11 +208,8 @@ public class ModItemGroup {
                         entries.add(ModItems.cellarDoorDoubleSteel);
                         entries.add(ModItems.cellarDoorDoubleWood);
                         entries.add(ModItems.cementMixer);
-                        entries.add(ModItems.chairCampingWhite);
                         entries.add(ModItems.chairFoldingMetalFoldedFallenWhite);
                         entries.add(ModItems.chairFoldingMetalFoldedLeaningWhite);
-                        entries.add(ModItems.chairFoldingMetalUnfoldedWhite);
-                        entries.add(ModItems.chairWood01);
                         entries.add(ModItems.challengeQuestMaster);
                         entries.add(ModItems.chandelierLight2x2);
                         entries.add(ModItems.chandelierLight);
@@ -451,7 +448,6 @@ public class ModItemGroup {
                         entries.add(ModItems.cntFarmTruckClosed);
                         entries.add(ModItems.cntFarmTruckOpen);
                         entries.add(ModItems.cntFetchQuestSatchel);
-                        entries.add(ModItems.cntFileCabinetShortClosed);
                         entries.add(ModItems.cntFileCabinetShortOpen);
                         entries.add(ModItems.cntFileCabinetTallClosed);
                         entries.add(ModItems.cntFileCabinetTallOpen);
@@ -1991,26 +1987,7 @@ public class ModItemGroup {
                         entries.add(ModItems.tentBiohazardWallWindowCamo);
                         entries.add(ModItems.tentBiohazardWallWindowWhite);
                         entries.add(ModItems.tentBiohazardWire01);
-                        entries.add(ModItems.terrainFillerAdaptive);
-                        entries.add(ModItems.terrainFiller);
-                        entries.add(ModItems.terrAsphalt);
-                        entries.add(ModItems.terrBurntForestGround);
-                        entries.add(ModItems.terrConcrete);
-                        entries.add(ModItems.terrDesertGround);
-                        entries.add(ModItems.terrDestroyedStone);
-                        entries.add(ModItems.terrDirt);
-                        entries.add(ModItems.terrForestGround);
-                        entries.add(ModItems.terrGravel);
-                        entries.add(ModItems.terrOreCoal);
-                        entries.add(ModItems.terrOreIron);
-                        entries.add(ModItems.terrOreLead);
-                        entries.add(ModItems.terrOreOilDeposit);
-                        entries.add(ModItems.terrOrePotassiumNitrate);
-                        entries.add(ModItems.terrSand);
-                        entries.add(ModItems.terrSandStone);
-                        entries.add(ModItems.terrSnow);
-                        entries.add(ModItems.terrStone);
-                        entries.add(ModItems.terrWaterPOI);
+
                         entries.add(ModItems.thrownAmmoMolotovCocktail);
                         entries.add(ModItems.thrownAmmoPipeBomb);
                         entries.add(ModItems.thrownDynamite);
@@ -2065,7 +2042,6 @@ public class ModItemGroup {
                         entries.add(ModItems.TVSmallWall3Block);
                         entries.add(ModItems.umbrellaTableDownWhite);
                         entries.add(ModItems.umbrellaTableUpWhite);
-                        entries.add(ModItems.urinalCommercialMounted);
                         entries.add(ModItems.utilityElectricalBox_01);
                         entries.add(ModItems.utilityElectricalBox01);
                         entries.add(ModItems.utilityElectricalBox_02);
@@ -2102,11 +2078,9 @@ public class ModItemGroup {
                         entries.add(ModItems.wallClock);
                         entries.add(ModItems.wallMirrorBroken);
                         entries.add(ModItems.wallMirror);
-                        entries.add(ModItems.wallMountSinkCommercial);
                         entries.add(ModItems.wallTorchLight);
                         entries.add(ModItems.waterHeaterWhite);
                         entries.add(ModItems.wheelchairWhite);
-                        entries.add(ModItems.whitePicketFenceSheet);
                         entries.add(ModItems.windowPlug01CTRPlate);
                         entries.add(ModItems.windowPlug02CTRPlate);
                         entries.add(ModItems.windowPlug03CTRPlate);
@@ -2139,7 +2113,6 @@ public class ModItemGroup {
                         entries.add(ModItems.woodenGarageDoor3X3White);
                         entries.add(ModItems.woodenGarageDoor4x3White);
                         entries.add(ModItems.woodenGarageDoor5x3White);
-                        entries.add(ModItems.woodFenceSheet);
                         entries.add(ModItems.woodHalfDestroyed05Left);
                         entries.add(ModItems.woodHalfDestroyed05Right);
                         entries.add(ModItems.woodHalfDestroyed06);
@@ -2149,7 +2122,6 @@ public class ModItemGroup {
                         entries.add(ModItems.woodHalfDestroyed09);
                         entries.add(ModItems.woodHalfDestroyedFiller01);
                         entries.add(ModItems.woodHatch);
-                        entries.add(ModItems.woodLogPillar100);
                         entries.add(ModItems.woodMaster);
                         entries.add(ModItems.woodNoUpgradeMaster);
                         entries.add(ModItems.woodPillar100Destroyed);
@@ -2165,7 +2137,6 @@ public class ModItemGroup {
                         entries.add(ModItems.woodSpikesTrapBloodPOI);
                         entries.add(ModItems.woodWeakNoUpgradeMaster);
                         entries.add(ModItems.workbench);
-                        entries.add(ModItems.workLightPOI);
                         entries.add(ModItems.wroughtIronFenceSheet);
                     }).build());
 
@@ -2322,6 +2293,7 @@ public class ModItemGroup {
                         entries.add(ModBlocks.powerSwitch02);
                         entries.add(ModBlocks.conduitSingleOffset);
                         entries.add(ModBlocks.counterMountedSinkCommercial);
+                        entries.add(ModBlocks.cntFileCabinetShortClosed);
 
                         entries.add(ModBlocks.metalRailingDiagonal);
                         entries.add(ModBlocks.metalRailingCNR);
@@ -2350,6 +2322,9 @@ public class ModItemGroup {
                         entries.add(ModBlocks.bunkBedFrame);
                         entries.add(ModBlocks.bunkBedMattress);
                         entries.add(ModBlocks.bunkBedMessy);
+                        entries.add(ModBlocks.chairCampingWhite);
+                        entries.add(ModBlocks.chairFoldingMetalUnfoldedWhite);
+                        entries.add(ModBlocks.chairWood01);
 
                         entries.add(ModBlocks.chainlinkFenceBottomPlainCorner);
                         entries.add(ModBlocks.chainlinkFenceBottomPlain);
@@ -2359,12 +2334,7 @@ public class ModItemGroup {
                         entries.add(ModBlocks.chainlinkFenceBottomRailPoleCorner);
                         entries.add(ModBlocks.chainlinkFenceBottomRailPoleLeft);
                         entries.add(ModBlocks.chainlinkFenceBottomRailPoleRight);
-                        entries.add(ModBlocks.chainlinkFenceDoorDouble);
                         entries.add(ModBlocks.chainlinkFenceDoor);
-                        entries.add(ModBlocks.chainlinkFenceMiddleRail);
-                        entries.add(ModBlocks.chainlinkFenceMiddleRailPoleCorner);
-                        entries.add(ModBlocks.chainlinkFenceMiddleRailPoleLeft);
-                        entries.add(ModBlocks.chainlinkFenceMiddleRailPoleRight);
                         entries.add(ModBlocks.chainlinkFencePole02);
                         entries.add(ModBlocks.chainlinkFencePole03);
                         entries.add(ModBlocks.chainlinkFencePole);
@@ -2373,12 +2343,14 @@ public class ModItemGroup {
                         entries.add(ModBlocks.chainlinkFenceTopPlainPoleRight);
                         entries.add(ModBlocks.chainlinkFenceTopPlainRail);
                         entries.add(ModBlocks.chainlinkFenceTopRailBridge);
-                        entries.add(ModBlocks.chainlinkFenceTopRailCorner);
-                        entries.add(ModBlocks.chainlinkFenceTopRail);
-                        entries.add(ModBlocks.chainlinkFenceTopRailPoleLeft);
-                        entries.add(ModBlocks.chainlinkFenceTopRailPoleRight);
-                        entries.add(ModBlocks.chainlinkGateDouble);
-                        entries.add(ModBlocks.chainlinkGateDoubleWide);
+
+                        entries.add(ModBlocks.urinalCommercialMounted);
+                        entries.add(ModBlocks.wallMountSinkCommercial);
+                        entries.add(ModBlocks.whitePicketFenceSheet);
+                        entries.add(ModBlocks.woodFenceSheet);
+                        entries.add(ModBlocks.woodLogPillar100);
+                        entries.add(ModBlocks.workLightPOI);
+
 
                         entries.add(ModBlocks.testStairs);
                         entries.add(ModBlocks.testWall);

@@ -376,11 +376,11 @@ public class ModItems {
     public static final Item cellarDoorDoubleSteel = registerItem("cellardoordoublesteel", new Item(new FabricItemSettings()));
     public static final Item cellarDoorDoubleWood = registerItem("cellardoordoublewood", new Item(new FabricItemSettings()));
     public static final Item cementMixer = registerItem("cementmixer", new Item(new FabricItemSettings()));
-    public static final Item chairCampingWhite = registerItem("chaircampingwhite", new Item(new FabricItemSettings()));
+    //public static final Item chairCampingWhite = registerItem("chaircampingwhite", new Item(new FabricItemSettings()));
     public static final Item chairFoldingMetalFoldedFallenWhite = registerItem("chairfoldingmetalfoldedfallenwhite", new Item(new FabricItemSettings()));
     public static final Item chairFoldingMetalFoldedLeaningWhite = registerItem("chairfoldingmetalfoldedleaningwhite", new Item(new FabricItemSettings()));
-    public static final Item chairFoldingMetalUnfoldedWhite = registerItem("chairfoldingmetalunfoldedwhite", new Item(new FabricItemSettings()));
-    public static final Item chairWood01 = registerItem("chairwood01", new Item(new FabricItemSettings()));
+    //public static final Item chairFoldingMetalUnfoldedWhite = registerItem("chairfoldingmetalunfoldedwhite", new Item(new FabricItemSettings()));
+    //public static final Item chairWood01 = registerItem("chairwood01", new Item(new FabricItemSettings()));
     public static final Item challengeQuestMaster = registerItem("challengequestmaster", new Item(new FabricItemSettings()));
     public static final Item chandelierLight2x2 = registerItem("chandelierlight2x2", new Item(new FabricItemSettings()));
     public static final Item chandelierLight = registerItem("chandelierlight", new Item(new FabricItemSettings()));
@@ -619,7 +619,7 @@ public class ModItems {
     public static final Item cntFarmTruckClosed = registerItem("cntfarmtruckclosed", new Item(new FabricItemSettings()));
     public static final Item cntFarmTruckOpen = registerItem("cntfarmtruckopen", new Item(new FabricItemSettings()));
     public static final Item cntFetchQuestSatchel = registerItem("cntfetchquestsatchel", new Item(new FabricItemSettings()));
-    public static final Item cntFileCabinetShortClosed = registerItem("cntfilecabinetshortclosed", new Item(new FabricItemSettings()));
+    //public static final Item cntFileCabinetShortClosed = registerItem("cntfilecabinetshortclosed", new Item(new FabricItemSettings()));
     public static final Item cntFileCabinetShortOpen = registerItem("cntfilecabinetshortopen", new Item(new FabricItemSettings()));
     public static final Item cntFileCabinetTallClosed = registerItem("cntfilecabinettallclosed", new Item(new FabricItemSettings()));
     public static final Item cntFileCabinetTallOpen = registerItem("cntfilecabinettallopen", new Item(new FabricItemSettings()));
@@ -2485,26 +2485,7 @@ public class ModItems {
     public static final Item tentBiohazardWallWindowCamo = registerItem("tentbiohazardwallwindowcamo", new Item(new FabricItemSettings()));
     public static final Item tentBiohazardWallWindowWhite = registerItem("tentbiohazardwallwindowwhite", new Item(new FabricItemSettings()));
     public static final Item tentBiohazardWire01 = registerItem("tentbiohazardwire01", new Item(new FabricItemSettings()));
-    public static final Item terrainFillerAdaptive = registerItem("terrainfilleradaptive", new Item(new FabricItemSettings()));
-    public static final Item terrainFiller = registerItem("terrainfiller", new Item(new FabricItemSettings()));
-    public static final Item terrAsphalt = registerItem("terrasphalt", new Item(new FabricItemSettings()));
-    public static final Item terrBurntForestGround = registerItem("terrburntforestground", new Item(new FabricItemSettings()));
-    public static final Item terrConcrete = registerItem("terrconcrete", new Item(new FabricItemSettings()));
-    public static final Item terrDesertGround = registerItem("terrdesertground", new Item(new FabricItemSettings()));
-    public static final Item terrDestroyedStone = registerItem("terrdestroyedstone", new Item(new FabricItemSettings()));
-    public static final Item terrDirt = registerItem("terrdirt", new Item(new FabricItemSettings()));
-    public static final Item terrForestGround = registerItem("terrforestground", new Item(new FabricItemSettings()));
-    public static final Item terrGravel = registerItem("terrgravel", new Item(new FabricItemSettings()));
-    public static final Item terrOreCoal = registerItem("terrorecoal", new Item(new FabricItemSettings()));
-    public static final Item terrOreIron = registerItem("terroreiron", new Item(new FabricItemSettings()));
-    public static final Item terrOreLead = registerItem("terrorelead", new Item(new FabricItemSettings()));
-    public static final Item terrOreOilDeposit = registerItem("terroreoildeposit", new Item(new FabricItemSettings()));
-    public static final Item terrOrePotassiumNitrate = registerItem("terrorepotassiumnitrate", new Item(new FabricItemSettings()));
-    public static final Item terrSand = registerItem("terrsand", new Item(new FabricItemSettings()));
-    public static final Item terrSandStone = registerItem("terrsandstone", new Item(new FabricItemSettings()));
-    public static final Item terrSnow = registerItem("terrsnow", new Item(new FabricItemSettings()));
-    public static final Item terrStone = registerItem("terrstone", new Item(new FabricItemSettings()));
-    public static final Item terrWaterPOI = registerItem("terrwaterpoi", new Item(new FabricItemSettings()));
+
     public static final Item thrownAmmoMolotovCocktail = registerItem("thrownammomolotovcocktail", new Item(new FabricItemSettings()));
     public static final Item thrownAmmoPipeBomb = registerItem("thrownammopipebomb", new Item(new FabricItemSettings()));
     public static final Item thrownDynamite = registerItem("throwndynamite", new Item(new FabricItemSettings()));
@@ -2613,7 +2594,7 @@ public class ModItems {
     public static final Item TVSmallWall3Block = registerItem("tvsmallwall3block", new Item(new FabricItemSettings()));
     public static final Item umbrellaTableDownWhite = registerItem("umbrellatabledownwhite", new Item(new FabricItemSettings()));
     public static final Item umbrellaTableUpWhite = registerItem("umbrellatableupwhite", new Item(new FabricItemSettings()));
-    public static final Item urinalCommercialMounted = registerItem("urinalcommercialmounted", new Item(new FabricItemSettings()));
+    //public static final Item urinalCommercialMounted = registerItem("urinalcommercialmounted", new Item(new FabricItemSettings()));
     public static final Item utilityElectricalBox_01 = registerItem("utilityelectricalbox_01", new Item(new FabricItemSettings()));
     public static final Item utilityElectricalBox01 = registerItem("utilityelectricalbox01", new Item(new FabricItemSettings()));
     public static final Item utilityElectricalBox_02 = registerItem("utilityelectricalbox_02", new Item(new FabricItemSettings()));
@@ -2650,11 +2631,11 @@ public class ModItems {
     public static final Item wallClock = registerItem("wallclock", new Item(new FabricItemSettings()));
     public static final Item wallMirrorBroken = registerItem("wallmirrorbroken", new Item(new FabricItemSettings()));
     public static final Item wallMirror = registerItem("wallmirror", new Item(new FabricItemSettings()));
-    public static final Item wallMountSinkCommercial = registerItem("wallmountsinkcommercial", new Item(new FabricItemSettings()));
+    //public static final Item wallMountSinkCommercial = registerItem("wallmountsinkcommercial", new Item(new FabricItemSettings()));
     public static final Item wallTorchLight = registerItem("walltorchlight", new Item(new FabricItemSettings()));
     public static final Item waterHeaterWhite = registerItem("waterheaterwhite", new Item(new FabricItemSettings()));
     public static final Item wheelchairWhite = registerItem("wheelchairwhite", new Item(new FabricItemSettings()));
-    public static final Item whitePicketFenceSheet = registerItem("whitepicketfencesheet", new Item(new FabricItemSettings()));
+    //public static final Item whitePicketFenceSheet = registerItem("whitepicketfencesheet", new Item(new FabricItemSettings()));
     public static final Item windowPlug01CTRPlate = registerItem("windowplug01ctrplate", new Item(new FabricItemSettings()));
     public static final Item windowPlug02CTRPlate = registerItem("windowplug02ctrplate", new Item(new FabricItemSettings()));
     public static final Item windowPlug03CTRPlate = registerItem("windowplug03ctrplate", new Item(new FabricItemSettings()));
@@ -2687,7 +2668,6 @@ public class ModItems {
     public static final Item woodenGarageDoor3X3White = registerItem("woodengaragedoor3x3white", new Item(new FabricItemSettings()));
     public static final Item woodenGarageDoor4x3White = registerItem("woodengaragedoor4x3white", new Item(new FabricItemSettings()));
     public static final Item woodenGarageDoor5x3White = registerItem("woodengaragedoor5x3white", new Item(new FabricItemSettings()));
-    public static final Item woodFenceSheet = registerItem("woodfencesheet", new Item(new FabricItemSettings()));
     public static final Item woodHalfDestroyed05Left = registerItem("woodhalfdestroyed05left", new Item(new FabricItemSettings()));
     public static final Item woodHalfDestroyed05Right = registerItem("woodhalfdestroyed05right", new Item(new FabricItemSettings()));
     public static final Item woodHalfDestroyed06 = registerItem("woodhalfdestroyed06", new Item(new FabricItemSettings()));
@@ -2697,7 +2677,6 @@ public class ModItems {
     public static final Item woodHalfDestroyed09 = registerItem("woodhalfdestroyed09", new Item(new FabricItemSettings()));
     public static final Item woodHalfDestroyedFiller01 = registerItem("woodhalfdestroyedfiller01", new Item(new FabricItemSettings()));
     public static final Item woodHatch = registerItem("woodhatch", new Item(new FabricItemSettings()));
-    public static final Item woodLogPillar100 = registerItem("woodlogpillar100", new Item(new FabricItemSettings()));
     public static final Item woodMaster = registerItem("woodmaster", new Item(new FabricItemSettings()));
     public static final Item woodNoUpgradeMaster = registerItem("woodnoupgrademaster", new Item(new FabricItemSettings()));
     public static final Item woodPillar100Destroyed = registerItem("woodpillar100destroyed", new Item(new FabricItemSettings()));
@@ -2713,7 +2692,6 @@ public class ModItems {
     public static final Item woodSpikesTrapBloodPOI = registerItem("woodspikestrapbloodpoi", new Item(new FabricItemSettings()));
     public static final Item woodWeakNoUpgradeMaster = registerItem("woodweaknoupgrademaster", new Item(new FabricItemSettings()));
     public static final Item workbench = registerItem("workbench", new Item(new FabricItemSettings()));
-    public static final Item workLightPOI = registerItem("worklightpoi", new Item(new FabricItemSettings()));
     public static final Item wroughtIronFenceSheet = registerItem("wroughtironfencesheet", new Item(new FabricItemSettings()));
 
 

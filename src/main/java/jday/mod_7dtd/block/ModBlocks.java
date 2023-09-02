@@ -90,15 +90,34 @@ public class ModBlocks {
     public static final Block bunkBedMessy = registerBlock("bunkbedmessy",
             new BlockX2W(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
 
-    //public static final Item bunkBedFrame = registerItem("bunkbedframe", new Item(new FabricItemSettings()));
-    //public static final Item bunkBedMattress = registerItem("bunkbedmattress", new Item(new FabricItemSettings()));
-    //public static final Item bunkBedMessy = registerItem("bunkbedmessy", new Item(new FabricItemSettings()));
+    public static final Block chairCampingWhite = registerBlock("chaircampingwhite",
+            new BlockX1(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block chairFoldingMetalUnfoldedWhite = registerBlock("chairfoldingmetalunfoldedwhite",
+            new BlockX1(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block chairWood01 = registerBlock("chairwood01",
+            new BlockX1(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block wallMountSinkCommercial = registerBlock("wallmountsinkcommercial",
+            new BlockX1(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block urinalCommercialMounted = registerBlock("urinalcommercialmounted",
+            new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block cntFileCabinetShortClosed = registerBlock("cntfilecabinetshortclosed",
+            new BlockX1(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    //public static final Item cntFileCabinetShortClosed = registerItem("cntfilecabinetshortclosed", new Item(new FabricItemSettings()));
+    //public static final Item urinalCommercialMounted = registerItem("urinalcommercialmounted", new Item(new FabricItemSettings()));
+    //public static final Item wallMountSinkCommercial = registerItem("wallmountsinkcommercial", new Item(new FabricItemSettings()));
+    public static final Block whitePicketFenceSheet = registerBlock("whitepicketfencesheet",
+            new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block woodFenceSheet = registerBlock("woodfencesheet",
+            new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
 
+    //public static final Item woodFenceSheet = registerItem("woodfencesheet", new Item(new FabricItemSettings()));
+    public static final Block woodLogPillar100 = registerBlock("woodlogpillar100",
+            new BlockX1(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block workLightPOI = registerBlock("worklightpoi",
+            new BlockX1(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
     public static final Block cntWaterCoolerFull = registerBlock("cntwatercoolerfull",
             new BlockX2H(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
-    //public static final Item cntWaterCoolerFull = registerItem("cntwatercoolerfull", new Item(new FabricItemSettings()));
 
-    //public static final Item brickNoUpgradeMaster = registerItem("bricknoupgrademaster", new Item(new FabricItemSettings()));
     public static final Block concreteMaster = registerBlock("concretemaster",
             new UpdateOnUse(FabricBlockSettings.copyOf(Blocks.OBSIDIAN).hardness(128f).strength(30f)));
     public static final Block steelMaster = registerBlock("steelmaster",
@@ -141,18 +160,8 @@ public class ModBlocks {
             new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
     public static final Block chainlinkFenceBottomRailPoleRight = registerBlock("chainlinkfencebottomrailpoleright",
             new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
-    public static final Block chainlinkFenceDoorDouble = registerBlock("chainlinkfencedoordouble",
-            new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
     public static final Block chainlinkFenceDoor = registerBlock("chainlinkfencedoor",
             new DoorBlock(FabricBlockSettings.copyOf(Blocks.BAMBOO_DOOR).nonOpaque(), BlockSetType.BAMBOO));
-    public static final Block chainlinkFenceMiddleRail = registerBlock("chainlinkfencemiddlerail",
-            new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
-    public static final Block chainlinkFenceMiddleRailPoleCorner = registerBlock("chainlinkfencemiddlerailpolecorner",
-            new BlockX1H3a(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
-    public static final Block chainlinkFenceMiddleRailPoleLeft = registerBlock("chainlinkfencemiddlerailpoleleft",
-            new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
-    public static final Block chainlinkFenceMiddleRailPoleRight = registerBlock("chainlinkfencemiddlerailpoleright",
-            new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
     public static final Block chainlinkFencePole02 = registerBlock("chainlinkfencepole02",
             new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
     public static final Block chainlinkFencePole03 = registerBlock("chainlinkfencepole03",
@@ -168,18 +177,6 @@ public class ModBlocks {
     public static final Block chainlinkFenceTopPlainRail = registerBlock("chainlinkfencetopplainrail",
             new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
     public static final Block chainlinkFenceTopRailBridge = registerBlock("chainlinkfencetoprailbridge",
-            new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
-    public static final Block chainlinkFenceTopRailCorner = registerBlock("chainlinkfencetoprailcorner",
-            new BlockX1H3a(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
-    public static final Block chainlinkFenceTopRail = registerBlock("chainlinkfencetoprail",
-            new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
-    public static final Block chainlinkFenceTopRailPoleLeft = registerBlock("chainlinkfencetoprailpoleleft",
-            new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
-    public static final Block chainlinkFenceTopRailPoleRight = registerBlock("chainlinkfencetoprailpoleright",
-            new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
-    public static final Block chainlinkGateDouble = registerBlock("chainlinkgatedouble",
-            new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
-    public static final Block chainlinkGateDoubleWide = registerBlock("chainlinkgatedoublewide",
             new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
 
     // doors

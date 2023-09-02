@@ -1,0 +1,47 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "mod_7dtd:block/metal1",
+		"particle": "mod_7dtd:block/metal1"
+	},
+	"elements": [
+		{
+			"from": [14, 0, 14],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [6, 0, 8, 16], "texture": "#0"},
+				"east": {"uv": [4, 0, 6, 16], "texture": "#0"},
+				"south": {"uv": [2, 0, 4, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 2, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 2, 2], "texture": "#0"},
+				"down": {"uv": [0, 0, 2, 2], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [-6.75, 0, -7.25]
+		},
+		"thirdperson_lefthand": {
+			"translation": [-5.25, 0, -6.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [-180, 0, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-180, 0, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"translation": [-6.5, 5.5, -6.5]
+		},
+		"gui": {
+			"rotation": [45, -45, 0],
+			"translation": [-4, 6.75, 0]
+		},
+		"fixed": {
+			"translation": [0, 0, -6.5]
+		}
+	}
+}
