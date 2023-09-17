@@ -10,6 +10,7 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
@@ -144,6 +145,13 @@ public class ModBlocks {
     public static final Block cntCardboardBox = registerContainerBlock("cntcardboardbox",
             new Container(FabricBlockSettings.copyOf(Blocks.BARREL)), 200);
 
+    public static final LadderBlock ladderMetal = registerLadderBlock("laddermetal",
+            new MyLadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.METAL)).setSpeed(0.24D));
+    public static final LadderBlock ladderSteel = registerLadderBlock("laddersteel",
+            new MyLadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.METAL)).setSpeed(0.36D));
+    public static final LadderBlock ladderWood = registerLadderBlock("ladderwood",
+            new MyLadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER)).setSpeed(0.16D));
+
     public static final Block chainlinkFenceBottomPlainCorner = registerBlock("chainlinkfencebottomplaincorner",
             new BlockX1H3a(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
     public static final Block chainlinkFenceBottomPlain = registerBlock("chainlinkfencebottomplain",
@@ -182,8 +190,27 @@ public class ModBlocks {
     // doors
     public static final Block doorWhite = registerBlock("doorwhite",
             new DoorBlock(FabricBlockSettings.copyOf(Blocks.BAMBOO_DOOR).nonOpaque(), BlockSetType.BAMBOO));
+    public static final Block workbench = registerBlock("workbench",
+            new BlockX2W(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block plantHydroponicAloe = registerBlock("planthydroponicaloe",
+            new BlockX2W(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block airConditioner = registerBlock("airconditioner",
+            new BlockX1(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block banditPlatform2x2A = registerBlock("banditplatform2x2a",
+            new BlockX1(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    //public static final Item banditPlatform2x2A = registerItem("banditplatform2x2a", new Item(new FabricItemSettings()));
+
+    public static final Block airConditionVentFan = registerBlock("airconditionventfan",
+            new BlockX1W3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
 
     private static Block registerBlock(String name, Block block) {
+        registerBlockItem(name, block);
+        return Registry.register(Registries.BLOCK, new Identifier(Mod_7dtd.MOD_ID, name), block);
+    }
+
+    private static LadderBlock registerLadderBlock(String name, LadderBlock block) {
+        //Registry.register(Registry.BLOCK, new Identifier("betlad", "iron_ladder"), IRON_LADDER);
+        //Registry.register(Registry.ITEM, new Identifier("betlad", "iron_ladder"), new BlockItem(IRON_LADDER, new FabricItemSettings().group(ItemGroup.MISC)));
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(Mod_7dtd.MOD_ID, name), block);
     }

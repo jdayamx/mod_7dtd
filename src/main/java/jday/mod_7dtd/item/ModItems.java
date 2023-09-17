@@ -30,10 +30,6 @@ public class ModItems {
     public static final Item abandonedSUV01White = registerItem("abandonedsuv01white", new Item(new FabricItemSettings()));
     public static final Item abandonedSUV3Wide01DoorsWhite = registerItem("abandonedsuv3wide01doorswhite", new Item(new FabricItemSettings()));
     public static final Item abandonedSUV3Wide01White = registerItem("abandonedsuv3wide01white", new Item(new FabricItemSettings()));
-    public static final Item adminQuestTicketMaster = registerItem("adminquestticketmaster", new Item(new FabricItemSettings()));
-    public static final Item airConditioner = registerItem("airconditioner", new Item(new FabricItemSettings()));
-    public static final Item airConditionVentFanDouble = registerItem("airconditionventfandouble", new Item(new FabricItemSettings()));
-    public static final Item airConditionVentFan = registerItem("airconditionventfan", new Item(new FabricItemSettings()));
     public static final Item ammo44MagnumBulletAP = registerItem("ammo44magnumbulletap", new Item(new FabricItemSettings()));
     public static final Item ammo44MagnumBulletBall = registerItem("ammo44magnumbulletball", new Item(new FabricItemSettings()));
     public static final Item ammo44MagnumBulletHP = registerItem("ammo44magnumbullethp", new Item(new FabricItemSettings()));
@@ -168,7 +164,6 @@ public class ModItems {
     public static final Item awningStraightWhite = registerItem("awningstraightwhite", new Item(new FabricItemSettings()));
     public static final Item backhoeWhite = registerItem("backhoewhite", new Item(new FabricItemSettings()));
     public static final Item backpackMedium = registerItem("backpackmedium", new Item(new FabricItemSettings()));
-    public static final Item banditPlatform2x2A = registerItem("banditplatform2x2a", new Item(new FabricItemSettings()));
     public static final Item banditPlatform3x2A = registerItem("banditplatform3x2a", new Item(new FabricItemSettings()));
     public static final Item banditPlatform3x3A = registerItem("banditplatform3x3a", new Item(new FabricItemSettings()));
     public static final Item banditPlatform3x3B = registerItem("banditplatform3x3b", new Item(new FabricItemSettings()));
@@ -1507,9 +1502,6 @@ public class ModItems {
     public static final Item keyRackWood01 = registerItem("keyrackwood01", new Item(new FabricItemSettings()));
     public static final Item keystoneBlockBroken = registerItem("keystoneblockbroken", new Item(new FabricItemSettings()));
     public static final Item keystoneBlock = registerItem("keystoneblock", new Item(new FabricItemSettings()));
-    public static final Item ladderMetal = registerItem("laddermetal", new Item(new FabricItemSettings()));
-    public static final Item ladderSteel = registerItem("laddersteel", new Item(new FabricItemSettings()));
-    public static final Item ladderWood = registerItem("ladderwood", new Item(new FabricItemSettings()));
     public static final Item lanternDecorLightWhite = registerItem("lanterndecorlightwhite", new Item(new FabricItemSettings()));
     public static final Item lanternOld_01 = registerItem("lanternold_01", new Item(new FabricItemSettings()));
     public static final Item lanternOld_02 = registerItem("lanternold_02", new Item(new FabricItemSettings()));
@@ -1980,7 +1972,6 @@ public class ModItems {
     public static final Item plantHousePottedCornerWhite = registerItem("planthousepottedcornerwhite", new Item(new FabricItemSettings()));
     public static final Item plantHousePottedWhite = registerItem("planthousepottedwhite", new Item(new FabricItemSettings()));
     public static final Item plantHouseTallPottedWhite = registerItem("planthousetallpottedwhite", new Item(new FabricItemSettings()));
-    public static final Item plantHydroponicAloe = registerItem("planthydroponicaloe", new Item(new FabricItemSettings()));
     public static final Item plantHydroponicVertical = registerItem("planthydroponicvertical", new Item(new FabricItemSettings()));
     public static final Item plantShrubDead = registerItem("plantshrubdead", new Item(new FabricItemSettings()));
     public static final Item plantShrub = registerItem("plantshrub", new Item(new FabricItemSettings()));
@@ -2691,7 +2682,6 @@ public class ModItems {
     public static final Item woodSpikesTrap2POI = registerItem("woodspikestrap2poi", new Item(new FabricItemSettings()));
     public static final Item woodSpikesTrapBloodPOI = registerItem("woodspikestrapbloodpoi", new Item(new FabricItemSettings()));
     public static final Item woodWeakNoUpgradeMaster = registerItem("woodweaknoupgrademaster", new Item(new FabricItemSettings()));
-    public static final Item workbench = registerItem("workbench", new Item(new FabricItemSettings()));
     public static final Item wroughtIronFenceSheet = registerItem("wroughtironfencesheet", new Item(new FabricItemSettings()));
 
 

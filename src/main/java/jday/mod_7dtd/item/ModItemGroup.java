@@ -25,16 +25,10 @@ public class ModItemGroup {
                         entries.add(ModItems.abandonedSUV01White);
                         entries.add(ModItems.abandonedSUV3Wide01DoorsWhite);
                         entries.add(ModItems.abandonedSUV3Wide01White);
-                        entries.add(ModItems.adminQuestTicketMaster);
-                        entries.add(ModItems.airConditioner);
-                        entries.add(ModItems.airConditionVentFanDouble);
-                        entries.add(ModItems.airConditionVentFan);
-
                         entries.add(ModItems.apartmentMailboxClosed);
                         entries.add(ModItems.apartmentMailboxOpen);
                         entries.add(ModItems.apartmentSmallMailboxClosedWhite);
                         entries.add(ModItems.apartmentSmallMailboxOpenWhite);
-
                         entries.add(ModItems.arrowHelper);
                         entries.add(ModItems.autoTurret);
                         entries.add(ModItems.awningCornerLeftWhite);
@@ -44,7 +38,6 @@ public class ModItemGroup {
                         entries.add(ModItems.awningStraightWhite);
                         entries.add(ModItems.backhoeWhite);
                         entries.add(ModItems.backpackMedium);
-                        entries.add(ModItems.banditPlatform2x2A);
                         entries.add(ModItems.banditPlatform3x2A);
                         entries.add(ModItems.banditPlatform3x3A);
                         entries.add(ModItems.banditPlatform3x3B);
@@ -1228,9 +1221,6 @@ public class ModItemGroup {
                         entries.add(ModItems.keyRackWood01);
                         entries.add(ModItems.keystoneBlockBroken);
                         entries.add(ModItems.keystoneBlock);
-                        entries.add(ModItems.ladderMetal);
-                        entries.add(ModItems.ladderSteel);
-                        entries.add(ModItems.ladderWood);
                         entries.add(ModItems.lanternDecorLightWhite);
                         entries.add(ModItems.lanternOld_01);
                         entries.add(ModItems.lanternOld_02);
@@ -2136,7 +2126,6 @@ public class ModItemGroup {
                         entries.add(ModItems.woodSpikesTrap2POI);
                         entries.add(ModItems.woodSpikesTrapBloodPOI);
                         entries.add(ModItems.woodWeakNoUpgradeMaster);
-                        entries.add(ModItems.workbench);
                         entries.add(ModItems.wroughtIronFenceSheet);
                     }).build());
 
@@ -2258,7 +2247,6 @@ public class ModItemGroup {
                         entries.add(ModItems.plantHousePottedCornerWhite);
                         entries.add(ModItems.plantHousePottedWhite);
                         entries.add(ModItems.plantHouseTallPottedWhite);
-                        entries.add(ModItems.plantHydroponicAloe);
                         entries.add(ModItems.plantHydroponicVertical);
                         entries.add(ModItems.plantShrubDead);
                         entries.add(ModItems.plantShrub);
@@ -2294,6 +2282,14 @@ public class ModItemGroup {
                         entries.add(ModBlocks.conduitSingleOffset);
                         entries.add(ModBlocks.counterMountedSinkCommercial);
                         entries.add(ModBlocks.cntFileCabinetShortClosed);
+                        entries.add(ModBlocks.airConditioner);
+                        entries.add(ModBlocks.airConditionVentFan);
+
+                        entries.add(ModBlocks.banditPlatform2x2A);
+
+                        entries.add(ModBlocks.ladderMetal);
+                        entries.add(ModBlocks.ladderSteel);
+                        entries.add(ModBlocks.ladderWood);
 
                         entries.add(ModBlocks.metalRailingDiagonal);
                         entries.add(ModBlocks.metalRailingCNR);
@@ -2350,7 +2346,8 @@ public class ModItemGroup {
                         entries.add(ModBlocks.woodFenceSheet);
                         entries.add(ModBlocks.woodLogPillar100);
                         entries.add(ModBlocks.workLightPOI);
-
+                        entries.add(ModBlocks.plantHydroponicAloe);
+                        entries.add(ModBlocks.workbench);
 
                         entries.add(ModBlocks.testStairs);
                         entries.add(ModBlocks.testWall);
