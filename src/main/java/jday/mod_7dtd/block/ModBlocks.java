@@ -187,6 +187,9 @@ public class ModBlocks {
     public static final Block chainlinkFenceTopRailBridge = registerBlock("chainlinkfencetoprailbridge",
             new BlockX1H3(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
 
+    public static final Block officeDesk = registerBlock("officedesk",
+            new BlockX2W(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+
     // doors
     public static final Block doorWhite = registerBlock("doorwhite",
             new DoorBlock(FabricBlockSettings.copyOf(Blocks.BAMBOO_DOOR).nonOpaque(), BlockSetType.BAMBOO));

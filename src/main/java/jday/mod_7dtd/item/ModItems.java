@@ -1760,7 +1760,6 @@ public class ModItems {
     public static final Item mushroom01 = registerItem("mushroom01", new Item(new FabricItemSettings()));
     public static final Item mushroom02 = registerItem("mushroom02", new Item(new FabricItemSettings()));
     public static final Item officeChair01 = registerItem("officechair01", new Item(new FabricItemSettings()));
-    public static final Item officeDesk = registerItem("officedesk", new Item(new FabricItemSettings()));
     public static final Item officeTable = registerItem("officetable", new Item(new FabricItemSettings()));
     public static final Item oldCash = registerItem("oldcash", new Item(new FabricItemSettings()));
     public static final Item oldChair1Broken = registerItem("oldchair1broken", new Item(new FabricItemSettings()));

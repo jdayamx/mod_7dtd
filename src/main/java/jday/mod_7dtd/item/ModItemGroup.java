@@ -1376,7 +1376,6 @@ public class ModItemGroup {
                         entries.add(ModItems.mushroom01);
                         entries.add(ModItems.mushroom02);
                         entries.add(ModItems.officeChair01);
-                        entries.add(ModItems.officeDesk);
                         entries.add(ModItems.officeTable);
                         entries.add(ModItems.oldCash);
                         entries.add(ModItems.oldChair1Broken);
@@ -2348,6 +2347,7 @@ public class ModItemGroup {
                         entries.add(ModBlocks.workLightPOI);
                         entries.add(ModBlocks.plantHydroponicAloe);
                         entries.add(ModBlocks.workbench);
+                        entries.add(ModBlocks.officeDesk);
 
                         entries.add(ModBlocks.testStairs);
                         entries.add(ModBlocks.testWall);
