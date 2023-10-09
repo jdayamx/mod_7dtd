@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mod_7dtd:block/wood16_slab"
+    },
+    "type=double": {
+      "model": "mod_7dtd:block/wood16"
+    },
+    "type=top": {
+      "model": "mod_7dtd:block/wood16_slab_top"
+    }
+  }
+}

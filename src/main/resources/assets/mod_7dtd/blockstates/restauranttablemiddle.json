@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"facing=north": { "model": "mod_7dtd:block/restauranttablemiddle" },
+		"facing=south": { "model": "mod_7dtd:block/restauranttablemiddle", "y": 180 },
+		"facing=west":  { "model": "mod_7dtd:block/restauranttablemiddle", "y": 270 },
+		"facing=east":  { "model": "mod_7dtd:block/restauranttablemiddle", "y": 90 }
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"facing=north": { "model": "mod_7dtd:block/lightindustrialmountedwallred" },
+		"facing=south": { "model": "mod_7dtd:block/lightindustrialmountedwallred", "y": 180 },
+		"facing=west":  { "model": "mod_7dtd:block/lightindustrialmountedwallred", "y": 270 },
+		"facing=east":  { "model": "mod_7dtd:block/lightindustrialmountedwallred", "y": 90 }
+	}
+}

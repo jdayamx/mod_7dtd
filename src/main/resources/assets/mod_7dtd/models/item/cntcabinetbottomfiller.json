@@ -1,6 +1,3 @@
 {
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "mod_7dtd:item/cntcabinetbottomfiller"
-    }
+    "parent": "mod_7dtd:block/cntcabinetbottomfiller"
 }

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "mod_7dtd:block/wood33",
+    "top": "mod_7dtd:block/roof3",
+    "side": "mod_7dtd:block/metal21"
+  }
+}

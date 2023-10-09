@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mod_7dtd:block/roof3_slab"
+    },
+    "type=double": {
+      "model": "mod_7dtd:block/roof3"
+    },
+    "type=top": {
+      "model": "mod_7dtd:block/roof3_slab_top"
+    }
+  }
+}

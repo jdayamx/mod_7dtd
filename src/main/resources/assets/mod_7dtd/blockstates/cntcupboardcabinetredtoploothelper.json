@@ -1,0 +1,10 @@
+{
+	"variants": {
+		"facing=north": { "model": "mod_7dtd:block/cntcupboardcabinetredtoploothelper" },
+		"facing=south": { "model": "mod_7dtd:block/cntcupboardcabinetredtoploothelper", "y": 180 },
+		"facing=west":  { "model": "mod_7dtd:block/cntcupboardcabinetredtoploothelper", "y": 270 },
+		"facing=east":  { "model": "mod_7dtd:block/cntcupboardcabinetredtoploothelper", "y": 90 },
+		"facing=up":  { "model": "mod_7dtd:block/cntcupboardcabinetredtoploothelper", "x": 270 },
+		"facing=down":  { "model": "mod_7dtd:block/cntcupboardcabinetredtoploothelper", "x": 90 }
+	}
+}
